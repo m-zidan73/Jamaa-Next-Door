@@ -10,6 +10,10 @@
     "dev:admin": "npm run dev --workspace @jnd/admin",
     "lint": "npm run lint --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",
-    "typecheck": "npm run typecheck --workspaces --if-present"
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build:android:preview": "npm run build:android:preview --workspace @jnd/mobile"
+  },
+  "devDependencies": {
+    "eas-cli": "21.2.0"
   }
 }
