@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ActivityIndicator, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
-import { Link, router } from "expo-router";
+import { Link } from "expo-router";
 import { useTranslation } from "react-i18next";
 import { colors, radii, shadows, spacing } from "../../src/theme/tokens";
 import { supabase } from "../../src/lib/supabase";

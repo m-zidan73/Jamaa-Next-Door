@@ -7,7 +7,7 @@ export default function PrayerTimesScreen() {
   const calculationMethod = useUiStore((state) => state.calculationMethod);
   const madhhab = useUiStore((state) => state.madhhab);
   const prayerTimes = buildPrayerTimes(new Date(), calculationMethod, madhhab);
-  const items = [
+  const items: [string, Date][] = [
     ["Fajr", prayerTimes.fajr],
     ["Dhuhr", prayerTimes.dhuhr],
     ["Asr", prayerTimes.asr],

@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 const schema = z.object({
   displayName: z.string().min(2),
   phone: z.string().optional(),
-  isAdult: z.literal(true),
+  isAdult: z.boolean().refine((value) => value, "Adult consent is required."),
 });
 
 export default function ProfileSetupScreen() {
