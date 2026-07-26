@@ -1,0 +1,14 @@
+{
+  "name": "jamaa-next-door",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:mobile": "npm run start --workspace @jnd/mobile",
+    "dev:admin": "npm run dev --workspace @jnd/admin",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  }
+}

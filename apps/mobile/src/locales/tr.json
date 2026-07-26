@@ -1,0 +1,20 @@
+{
+  "appName": "Jamaa Next Door",
+  "loginTitle": "E-posta adresini gir",
+  "loginBody": "Oturumunun güvenli şekilde geri yüklenmesi için sana bir magic link göndereceğiz.",
+  "sendLink": "Magic link gönder",
+  "profileSetup": "Profil kurulumu",
+  "selfieNotice": "Yöneticinin hesabını inceleyip onaylayabilmesi için selfie gereklidir.",
+  "adultConsent": "18 yaşından büyük olduğumu onaylıyorum.",
+  "jamaahs": "Yakındaki Jama'ahlar",
+  "prayerTimes": "Namaz Vakitleri",
+  "settings": "Ayarlar",
+  "comingSoon": "Yakında",
+  "verificationRequired": "Katılmadan önce selfie doğrulaması gerekir.",
+  "startJamaah": "Jama'ah başlat",
+  "createJamaah": "Jama'ah oluştur",
+  "privacy": "Gizlilik Politikası",
+  "terms": "Şartlar",
+  "safety": "Güvenlik",
+  "notifications": "Bildirimler"
+}

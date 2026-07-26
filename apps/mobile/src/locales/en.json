@@ -1,0 +1,20 @@
+{
+  "appName": "Jamaa Next Door",
+  "loginTitle": "Enter your email",
+  "loginBody": "We will send a magic link so your session can be restored securely.",
+  "sendLink": "Send magic link",
+  "profileSetup": "Profile setup",
+  "selfieNotice": "A selfie is required so an administrator can review and approve your account.",
+  "adultConsent": "I confirm that I am at least 18 years old.",
+  "jamaahs": "Nearby Jama'ahs",
+  "prayerTimes": "Prayer Times",
+  "settings": "Settings",
+  "comingSoon": "Coming soon",
+  "verificationRequired": "Selfie verification is required before you can join.",
+  "startJamaah": "Start Jama'ah",
+  "createJamaah": "Create Jama'ah",
+  "privacy": "Privacy Policy",
+  "terms": "Terms",
+  "safety": "Safety",
+  "notifications": "Notifications"
+}

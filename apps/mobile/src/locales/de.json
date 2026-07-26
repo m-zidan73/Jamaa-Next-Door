@@ -1,0 +1,20 @@
+{
+  "appName": "Jamaa Next Door",
+  "loginTitle": "E-Mail eingeben",
+  "loginBody": "Wir senden einen Magic Link, damit deine Sitzung sicher wiederhergestellt werden kann.",
+  "sendLink": "Magic Link senden",
+  "profileSetup": "Profil einrichten",
+  "selfieNotice": "Ein Selfie ist erforderlich, damit ein Administrator dein Konto prüfen und freigeben kann.",
+  "adultConsent": "Ich bestätige, dass ich mindestens 18 Jahre alt bin.",
+  "jamaahs": "Jama'ahs in der Nähe",
+  "prayerTimes": "Gebetszeiten",
+  "settings": "Einstellungen",
+  "comingSoon": "Bald verfügbar",
+  "verificationRequired": "Vor dem Beitritt ist eine Selfie-Verifizierung erforderlich.",
+  "startJamaah": "Jama'ah starten",
+  "createJamaah": "Jama'ah erstellen",
+  "privacy": "Datenschutz",
+  "terms": "Nutzungsbedingungen",
+  "safety": "Sicherheit",
+  "notifications": "Benachrichtigungen"
+}

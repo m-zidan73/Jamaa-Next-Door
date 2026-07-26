@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Jamaa Next Door",
+    "slug": "jamaa-next-door",
+    "scheme": "jnd",
+    "orientation": "portrait",
+    "platforms": [
+      "android"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-notifications",
+      "expo-location"
+    ],
+    "android": {
+      "package": "com.jnd.mobile",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "POST_NOTIFICATIONS",
+        "CAMERA"
+      ]
+    }
+  }
+}
