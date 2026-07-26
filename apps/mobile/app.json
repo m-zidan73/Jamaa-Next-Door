@@ -18,7 +18,7 @@
       "expo-location"
     ],
     "android": {
-      "package": "com.jnd.mobile",
+      "package": "com.zidan73.jamaanextdoor",
       "versionCode": 5,
       "permissions": [
         "ACCESS_FINE_LOCATION",

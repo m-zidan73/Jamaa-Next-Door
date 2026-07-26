@@ -4,10 +4,12 @@ import { useTranslation } from "react-i18next";
 import { colors, radii, shadows, spacing } from "../../src/theme/tokens";
 import { useLoginController } from "../../src/features/auth/use-login-controller";
 import { routes } from "../../src/navigation/routes";
+import { useAuthSession } from "../../src/providers/auth-session-provider";
 
 export default function LoginScreen() {
   const { t } = useTranslation();
   const { email, loading, message, sendMagicLink, setEmail } = useLoginController();
+  const { callbackError } = useAuthSession();
 
   return (
     <View style={styles.screen}>
@@ -26,7 +28,7 @@ export default function LoginScreen() {
         <Pressable onPress={sendMagicLink} style={styles.button}>
           {loading ? <ActivityIndicator color={colors.surfaceDark} /> : <Text style={styles.buttonLabel}>{t("sendLink")}</Text>}
         </Pressable>
-        {message ? <Text style={styles.message}>{message}</Text> : null}
+        {callbackError || message ? <Text style={styles.message}>{callbackError ?? message}</Text> : null}
         <Link href={routes.profileSetup} style={styles.secondaryLink}>
           Continue to profile setup
         </Link>
