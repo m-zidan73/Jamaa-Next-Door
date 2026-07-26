@@ -1,14 +1,14 @@
 import { create } from "zustand";
+import type { CalculationMethodCode, LocaleCode, MadhhabCode } from "../features/settings/preferences";
 
-type LocaleCode = "en" | "de" | "tr";
 
 type UiStore = {
   localeOverride: LocaleCode | null;
-  calculationMethod: "MWL" | "DITIB";
-  madhhab: "auto" | "hanafi" | "shafi";
+  calculationMethod: CalculationMethodCode;
+  madhhab: MadhhabCode;
   setLocaleOverride: (locale: LocaleCode | null) => void;
-  setCalculationMethod: (value: "MWL" | "DITIB") => void;
-  setMadhhab: (value: "auto" | "hanafi" | "shafi") => void;
+  setCalculationMethod: (value: CalculationMethodCode) => void;
+  setMadhhab: (value: MadhhabCode) => void;
 };
 
 export const useUiStore = create<UiStore>((set) => ({

@@ -1,6 +1,7 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import { useTranslation } from "react-i18next";
 import { i18n } from "../../src/lib/i18n";
+import { SUPPORTED_LOCALES, type LocaleCode } from "../../src/features/settings/preferences";
 import { useUiStore } from "../../src/store/ui-store";
 import { colors, radii, spacing } from "../../src/theme/tokens";
 
@@ -9,7 +10,7 @@ export default function SettingsScreen() {
   const localeOverride = useUiStore((state) => state.localeOverride);
   const setLocaleOverride = useUiStore((state) => state.setLocaleOverride);
 
-  function switchLanguage(next: "en" | "de" | "tr") {
+  function switchLanguage(next: LocaleCode) {
     setLocaleOverride(next);
     void i18n.changeLanguage(next);
   }
@@ -19,7 +20,7 @@ export default function SettingsScreen() {
       <Text style={styles.title}>{t("settings")}</Text>
       <Text style={styles.subtitle}>Device language is applied automatically, with manual override stored locally.</Text>
       <View style={styles.row}>
-        {(["en", "de", "tr"] as const).map((locale) => (
+        {SUPPORTED_LOCALES.map((locale) => (
           <Pressable
             key={locale}
             onPress={() => switchLanguage(locale)}

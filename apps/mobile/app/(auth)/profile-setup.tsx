@@ -1,25 +1,20 @@
 import { useForm, Controller } from "react-hook-form";
 import { StyleSheet, Switch, Text, TextInput, View } from "react-native";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
 import { colors, radii, spacing } from "../../src/theme/tokens";
 import { useTranslation } from "react-i18next";
+import {
+  PROFILE_SETUP_DEFAULT_VALUES,
+  ProfileSetupFormValues,
+  profileSetupSchema,
+} from "../../src/features/profile/profile-setup-model";
 
-const schema = z.object({
-  displayName: z.string().min(2),
-  phone: z.string().optional(),
-  isAdult: z.boolean().refine((value) => value, "Adult consent is required."),
-});
 
 export default function ProfileSetupScreen() {
   const { t } = useTranslation();
-  const { control } = useForm<z.infer<typeof schema>>({
-    resolver: zodResolver(schema),
-    defaultValues: {
-      displayName: "",
-      phone: "",
-      isAdult: false,
-    },
+  const { control } = useForm<ProfileSetupFormValues>({
+    resolver: zodResolver(profileSetupSchema),
+    defaultValues: PROFILE_SETUP_DEFAULT_VALUES,
   });
 
   return (

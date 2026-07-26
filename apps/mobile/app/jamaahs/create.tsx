@@ -1,42 +1,25 @@
 import * as ImagePicker from "expo-image-picker";
 import { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
-import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Picker } from "@react-native-picker/picker";
 import { Alert, Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
+import {
+  CREATE_JAMAAH_DEFAULT_VALUES,
+  CreateJamaahFormValues,
+  createJamaahSchema,
+  formatStartDelay,
+  PRAYER_OPTIONS,
+  START_DELAY_OPTIONS,
+} from "../../src/features/jamaahs/create-jamaah-model";
 import { colors, radii, spacing } from "../../src/theme/tokens";
 
-const schema = z.object({
-  prayer: z.enum(["Fajr", "Dhuhr", "Asr", "Maghrib", "Isha"]),
-  startDelay: z.enum(["5", "8", "10", "15", "custom"]),
-  customDelay: z.string().optional(),
-  location: z.string().min(5),
-  locationImageUri: z.string().optional(),
-}).superRefine((values, context) => {
-  if (
-    values.startDelay === "custom" &&
-    (!values.customDelay || !/^\d+$/.test(values.customDelay) || Number(values.customDelay) < 1)
-  ) {
-    context.addIssue({
-      code: z.ZodIssueCode.custom,
-      message: "Enter a valid number of minutes.",
-      path: ["customDelay"],
-    });
-  }
-});
 
 export default function CreateJamaahScreen() {
-  const [summary, setSummary] = useState<z.infer<typeof schema> | null>(null);
-  const { control, handleSubmit, setValue, watch } = useForm<z.infer<typeof schema>>({
-    resolver: zodResolver(schema),
-    defaultValues: {
-      prayer: "Fajr",
-      startDelay: "5",
-      customDelay: "",
-      location: "",
-      locationImageUri: "",
-    },
+  const [summary, setSummary] = useState<CreateJamaahFormValues | null>(null);
+  const { control, handleSubmit, setValue, watch } = useForm<CreateJamaahFormValues>({
+    resolver: zodResolver(createJamaahSchema),
+    defaultValues: CREATE_JAMAAH_DEFAULT_VALUES,
   });
   const locationImageUri = watch("locationImageUri");
 
@@ -59,13 +42,6 @@ export default function CreateJamaahScreen() {
     }
   }
 
-  function formatStartDelay(values: z.infer<typeof schema>) {
-    if (values.startDelay === "custom") {
-      return `${values.customDelay} minutes`;
-    }
-
-    return `${values.startDelay} minutes`;
-  }
 
   return (
     <ScrollView contentContainerStyle={styles.screen}>
@@ -78,7 +54,7 @@ export default function CreateJamaahScreen() {
         render={({ field }) => (
           <View style={styles.pickerWrap}>
             <Picker dropdownIconColor={colors.text} onValueChange={field.onChange} selectedValue={field.value} style={{ color: colors.text }}>
-              {["Fajr", "Dhuhr", "Asr", "Maghrib", "Isha"].map((prayer) => (
+              {PRAYER_OPTIONS.map((prayer) => (
                 <Picker.Item key={prayer} label={prayer} value={prayer} />
               ))}
             </Picker>
@@ -98,11 +74,9 @@ export default function CreateJamaahScreen() {
                 selectedValue={field.value}
                 style={{ color: colors.text }}
               >
-                <Picker.Item label="5 minutes" value="5" />
-                <Picker.Item label="8 minutes" value="8" />
-                <Picker.Item label="10 minutes" value="10" />
-                <Picker.Item label="15 minutes" value="15" />
-                <Picker.Item label="Custom" value="custom" />
+                {START_DELAY_OPTIONS.map((option) => (
+                  <Picker.Item key={option.value} label={option.label} value={option.value} />
+                ))}
               </Picker>
             </View>
             {field.value === "custom" ? (
