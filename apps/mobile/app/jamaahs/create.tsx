@@ -1,300 +1,33 @@
-import * as ImagePicker from "expo-image-picker";
-import { useState } from "react";
-import { Controller, useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { Picker } from "@react-native-picker/picker";
-import { Alert, Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
-import {
-  CREATE_JAMAAH_DEFAULT_VALUES,
-  CreateJamaahFormValues,
-  createJamaahSchema,
-  formatStartDelay,
-  PRAYER_OPTIONS,
-  START_DELAY_OPTIONS,
-} from "../../src/features/jamaahs/create-jamaah-model";
-import { colors, radii, spacing } from "../../src/theme/tokens";
-
+import { Pressable, ScrollView, Text } from "react-native";
+import { LocationFields } from "../../src/features/jamaahs/components/location-fields";
+import { JamaahReviewSummary } from "../../src/features/jamaahs/components/jamaah-review-summary";
+import { PrayerTimingFields } from "../../src/features/jamaahs/components/prayer-timing-fields";
+import { styles } from "../../src/features/jamaahs/components/create-jamaah-styles";
+import { useCreateJamaahController } from "../../src/features/jamaahs/use-create-jamaah-controller";
 
 export default function CreateJamaahScreen() {
-  const [summary, setSummary] = useState<CreateJamaahFormValues | null>(null);
-  const { control, handleSubmit, setValue, watch } = useForm<CreateJamaahFormValues>({
-    resolver: zodResolver(createJamaahSchema),
-    defaultValues: CREATE_JAMAAH_DEFAULT_VALUES,
-  });
-  const locationImageUri = watch("locationImageUri");
-
-  async function pickLocationImage() {
-    const permission = await ImagePicker.requestMediaLibraryPermissionsAsync();
-
-    if (!permission.granted) {
-      Alert.alert("Permission needed", "Allow photo library access to upload a location image.");
-      return;
-    }
-
-    const result = await ImagePicker.launchImageLibraryAsync({
-      allowsEditing: true,
-      mediaTypes: ImagePicker.MediaTypeOptions.Images,
-      quality: 0.8,
-    });
-
-    if (!result.canceled && result.assets[0]?.uri) {
-      setValue("locationImageUri", result.assets[0].uri, { shouldDirty: true, shouldValidate: true });
-    }
-  }
-
+  const {
+    control,
+    locationImageUri,
+    pickLocationImage,
+    reviewSummary,
+    summary,
+  } = useCreateJamaahController();
 
   return (
     <ScrollView contentContainerStyle={styles.screen}>
       <Text style={styles.title}>Create Jama'ah</Text>
       <Text style={styles.note}>GPS point, map selection, and full-address search should all validate Germany-only creation server-side.</Text>
-      <Text style={styles.label}>Prayer</Text>
-      <Controller
+      <PrayerTimingFields control={control} />
+      <LocationFields
         control={control}
-        name="prayer"
-        render={({ field }) => (
-          <View style={styles.pickerWrap}>
-            <Picker dropdownIconColor={colors.text} onValueChange={field.onChange} selectedValue={field.value} style={{ color: colors.text }}>
-              {PRAYER_OPTIONS.map((prayer) => (
-                <Picker.Item key={prayer} label={prayer} value={prayer} />
-              ))}
-            </Picker>
-          </View>
-        )}
+        locationImageUri={locationImageUri}
+        onPickImage={pickLocationImage}
       />
-      <Text style={styles.label}>Starts in</Text>
-      <Controller
-        control={control}
-        name="startDelay"
-        render={({ field }) => (
-          <>
-            <View style={styles.pickerWrap}>
-              <Picker
-                dropdownIconColor={colors.text}
-                onValueChange={field.onChange}
-                selectedValue={field.value}
-                style={{ color: colors.text }}
-              >
-                {START_DELAY_OPTIONS.map((option) => (
-                  <Picker.Item key={option.value} label={option.label} value={option.value} />
-                ))}
-              </Picker>
-            </View>
-            {field.value === "custom" ? (
-              <Controller
-                control={control}
-                name="customDelay"
-                render={({ field: customField, fieldState }) => (
-                  <>
-                    <Text style={styles.label}>Custom time (minutes)</Text>
-                    <TextInput
-                      keyboardType="number-pad"
-                      onChangeText={customField.onChange}
-                      placeholder="Enter minutes"
-                      placeholderTextColor={colors.muted}
-                      style={[styles.input, fieldState.error && styles.inputError]}
-                      value={customField.value}
-                    />
-                    {fieldState.error ? <Text style={styles.error}>{fieldState.error.message}</Text> : null}
-                  </>
-                )}
-              />
-            ) : null}
-          </>
-        )}
-      />
-      <Text style={styles.label}>Prayer location</Text>
-      <Controller
-        control={control}
-        name="location"
-        render={({ field, fieldState }) => (
-          <>
-            <TextInput
-              multiline
-              onChangeText={field.onChange}
-              placeholder="Prayer location"
-              placeholderTextColor={colors.muted}
-              style={[styles.input, styles.textarea, fieldState.error && styles.inputError]}
-              value={field.value}
-            />
-            {fieldState.error ? <Text style={styles.error}>{fieldState.error.message}</Text> : null}
-          </>
-        )}
-      />
-      <Text style={styles.label}>Location image</Text>
-      <Pressable onPress={pickLocationImage} style={styles.secondaryButton}>
-        <Text style={styles.secondaryButtonLabel}>{locationImageUri ? "Change image" : "Upload image"}</Text>
-      </Pressable>
-      {locationImageUri ? (
-        <View style={styles.previewCard}>
-          <Image source={{ uri: locationImageUri }} style={styles.previewImage} />
-          <Text style={styles.previewCaption}>Selected image will be included in the review.</Text>
-        </View>
-      ) : (
-        <Text style={styles.helper}>Add a photo so people can recognize the exact prayer spot.</Text>
-      )}
-      <Pressable onPress={handleSubmit((values) => setSummary(values))} style={styles.button}>
+      <Pressable onPress={reviewSummary} style={styles.button}>
         <Text style={styles.buttonLabel}>Review summary</Text>
       </Pressable>
-      {summary ? (
-        <View style={styles.summaryCard}>
-          <Text style={styles.summaryTitle}>Review summary</Text>
-          <View style={styles.summaryRow}>
-            <Text style={styles.summaryLabel}>Prayer</Text>
-            <Text style={styles.summaryValue}>{summary.prayer}</Text>
-          </View>
-          <View style={styles.summaryRow}>
-            <Text style={styles.summaryLabel}>Starts in</Text>
-            <Text style={styles.summaryValue}>{formatStartDelay(summary)}</Text>
-          </View>
-          <View style={styles.summaryBlock}>
-            <Text style={styles.summaryLabel}>Prayer location</Text>
-            <Text style={styles.summaryValue}>{summary.location}</Text>
-          </View>
-          <View style={styles.summaryBlock}>
-            <Text style={styles.summaryLabel}>Location image</Text>
-            {summary.locationImageUri ? (
-              <Image source={{ uri: summary.locationImageUri }} style={styles.summaryImage} />
-            ) : (
-              <Text style={styles.summaryEmpty}>No image selected yet.</Text>
-            )}
-          </View>
-        </View>
-      ) : null}
+      <JamaahReviewSummary summary={summary} />
     </ScrollView>
   );
 }
-
-const styles = StyleSheet.create({
-  screen: {
-    backgroundColor: colors.background,
-    padding: spacing.lg,
-    minHeight: "100%",
-  },
-  title: {
-    color: colors.text,
-    fontSize: 28,
-    fontWeight: "900",
-  },
-  note: {
-    color: colors.muted,
-    marginVertical: spacing.md,
-  },
-  label: {
-    color: colors.text,
-    fontSize: 15,
-    fontWeight: "700",
-    marginBottom: spacing.sm,
-  },
-  pickerWrap: {
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.md,
-    marginBottom: spacing.md,
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.md,
-    color: colors.text,
-    padding: spacing.md,
-    marginBottom: spacing.md,
-  },
-  inputError: {
-    borderColor: "#E06C75",
-  },
-  error: {
-    color: "#ECA1A6",
-    marginTop: -spacing.sm,
-    marginBottom: spacing.md,
-  },
-  helper: {
-    color: colors.muted,
-    marginTop: -spacing.xs,
-    marginBottom: spacing.md,
-  },
-  textarea: {
-    minHeight: 120,
-    textAlignVertical: "top",
-  },
-  button: {
-    backgroundColor: colors.gold,
-    borderRadius: radii.md,
-    alignItems: "center",
-    paddingVertical: spacing.md,
-  },
-  buttonLabel: {
-    color: colors.surfaceDark,
-    fontWeight: "800",
-  },
-  secondaryButton: {
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.md,
-    paddingVertical: spacing.md,
-    paddingHorizontal: spacing.md,
-    marginBottom: spacing.md,
-    alignItems: "center",
-  },
-  secondaryButtonLabel: {
-    color: colors.text,
-    fontWeight: "700",
-  },
-  previewCard: {
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.md,
-    padding: spacing.md,
-    marginBottom: spacing.md,
-  },
-  previewImage: {
-    width: "100%",
-    height: 180,
-    borderRadius: radii.sm,
-    marginBottom: spacing.sm,
-  },
-  previewCaption: {
-    color: colors.muted,
-  },
-  summaryCard: {
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radii.md,
-    padding: spacing.md,
-    marginTop: spacing.md,
-    gap: spacing.sm,
-  },
-  summaryTitle: {
-    color: colors.text,
-    fontSize: 20,
-    fontWeight: "800",
-    marginBottom: spacing.xs,
-  },
-  summaryRow: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    gap: spacing.md,
-  },
-  summaryBlock: {
-    gap: spacing.xs,
-  },
-  summaryLabel: {
-    color: colors.muted,
-    fontSize: 13,
-    fontWeight: "700",
-    textTransform: "uppercase",
-  },
-  summaryValue: {
-    color: colors.text,
-    fontSize: 16,
-    fontWeight: "600",
-  },
-  summaryImage: {
-    width: "100%",
-    height: 200,
-    borderRadius: radii.sm,
-  },
-  summaryEmpty: {
-    color: colors.muted,
-    fontSize: 15,
-  },
-});

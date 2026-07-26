@@ -1,0 +1,137 @@
+import { StyleSheet } from "react-native";
+import { colors, radii, spacing } from "../../../theme/tokens";
+
+export const styles = StyleSheet.create({
+  screen: {
+    backgroundColor: colors.background,
+    padding: spacing.lg,
+    minHeight: "100%",
+  },
+  title: {
+    color: colors.text,
+    fontSize: 28,
+    fontWeight: "900",
+  },
+  note: {
+    color: colors.muted,
+    marginVertical: spacing.md,
+  },
+  label: {
+    color: colors.text,
+    fontSize: 15,
+    fontWeight: "700",
+    marginBottom: spacing.sm,
+  },
+  pickerWrap: {
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radii.md,
+    marginBottom: spacing.md,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radii.md,
+    color: colors.text,
+    padding: spacing.md,
+    marginBottom: spacing.md,
+  },
+  inputError: {
+    borderColor: "#E06C75",
+  },
+  error: {
+    color: "#ECA1A6",
+    marginTop: -spacing.sm,
+    marginBottom: spacing.md,
+  },
+  helper: {
+    color: colors.muted,
+    marginTop: -spacing.xs,
+    marginBottom: spacing.md,
+  },
+  textarea: {
+    minHeight: 120,
+    textAlignVertical: "top",
+  },
+  button: {
+    backgroundColor: colors.gold,
+    borderRadius: radii.md,
+    alignItems: "center",
+    paddingVertical: spacing.md,
+  },
+  buttonLabel: {
+    color: colors.surfaceDark,
+    fontWeight: "800",
+  },
+  secondaryButton: {
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radii.md,
+    paddingVertical: spacing.md,
+    paddingHorizontal: spacing.md,
+    marginBottom: spacing.md,
+    alignItems: "center",
+  },
+  secondaryButtonLabel: {
+    color: colors.text,
+    fontWeight: "700",
+  },
+  previewCard: {
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radii.md,
+    padding: spacing.md,
+    marginBottom: spacing.md,
+  },
+  previewImage: {
+    width: "100%",
+    height: 180,
+    borderRadius: radii.sm,
+    marginBottom: spacing.sm,
+  },
+  previewCaption: {
+    color: colors.muted,
+  },
+  summaryCard: {
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radii.md,
+    padding: spacing.md,
+    marginTop: spacing.md,
+    gap: spacing.sm,
+  },
+  summaryTitle: {
+    color: colors.text,
+    fontSize: 20,
+    fontWeight: "800",
+    marginBottom: spacing.xs,
+  },
+  summaryRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    gap: spacing.md,
+  },
+  summaryBlock: {
+    gap: spacing.xs,
+  },
+  summaryLabel: {
+    color: colors.muted,
+    fontSize: 13,
+    fontWeight: "700",
+    textTransform: "uppercase",
+  },
+  summaryValue: {
+    color: colors.text,
+    fontSize: 16,
+    fontWeight: "600",
+  },
+  summaryImage: {
+    width: "100%",
+    height: 200,
+    borderRadius: radii.sm,
+  },
+  summaryEmpty: {
+    color: colors.muted,
+    fontSize: 15,
+  },
+});
