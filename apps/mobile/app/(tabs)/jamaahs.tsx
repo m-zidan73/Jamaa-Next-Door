@@ -1,6 +1,7 @@
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Link } from "expo-router";
 import { useTranslation } from "react-i18next";
+import { routes } from "../../src/navigation/routes";
 import { colors, radii, shadows, spacing } from "../../src/theme/tokens";
 
 export default function JamaahsScreen() {
@@ -19,12 +20,12 @@ export default function JamaahsScreen() {
       <View style={styles.emptyCard}>
         <Text style={styles.body}>Exact location data must only be fetched for approved participants through a server-authorized function.</Text>
       </View>
-      <Link asChild href="/jamaahs/create">
+      <Link asChild href={routes.createJamaah}>
         <Pressable style={styles.startButton}>
           <Text style={styles.startButtonLabel}>{t("startJamaah")}</Text>
         </Pressable>
       </Link>
-      <Link asChild href="/jamaahs/demo">
+      <Link asChild href={routes.jamaahDetailsDemo}>
         <Pressable style={styles.previewButton}>
           <Text style={styles.previewButtonLabel}>Open details preview</Text>
         </Pressable>

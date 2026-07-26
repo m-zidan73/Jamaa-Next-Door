@@ -1,32 +1,13 @@
-import { useState } from "react";
 import { ActivityIndicator, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import { Link } from "expo-router";
 import { useTranslation } from "react-i18next";
 import { colors, radii, shadows, spacing } from "../../src/theme/tokens";
-import { supabase } from "../../src/lib/supabase";
+import { useLoginController } from "../../src/features/auth/use-login-controller";
+import { routes } from "../../src/navigation/routes";
 
 export default function LoginScreen() {
   const { t } = useTranslation();
-  const [email, setEmail] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState<string | null>(null);
-
-  async function sendMagicLink() {
-    if (!supabase) {
-      setMessage("Configure Supabase credentials in .env before testing authentication.");
-      return;
-    }
-
-    setLoading(true);
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: {
-        emailRedirectTo: "jnd://",
-      },
-    });
-    setLoading(false);
-    setMessage(error ? error.message : "Magic link sent. Continue with profile setup after signing in.");
-  }
+  const { email, loading, message, sendMagicLink, setEmail } = useLoginController();
 
   return (
     <View style={styles.screen}>
@@ -46,10 +27,10 @@ export default function LoginScreen() {
           {loading ? <ActivityIndicator color={colors.surfaceDark} /> : <Text style={styles.buttonLabel}>{t("sendLink")}</Text>}
         </Pressable>
         {message ? <Text style={styles.message}>{message}</Text> : null}
-        <Link href="/(auth)/profile-setup" style={styles.secondaryLink}>
+        <Link href={routes.profileSetup} style={styles.secondaryLink}>
           Continue to profile setup
         </Link>
-        <Link href="/(tabs)/jamaahs" style={styles.secondaryLink}>
+        <Link href={routes.jamaahs} style={styles.secondaryLink}>
           Open prototype shell
         </Link>
       </View>
