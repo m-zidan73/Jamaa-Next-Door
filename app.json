@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "94bfe684-ec4c-46ea-90d6-ac04669b7817"
+      }
+    },
+    "owner": "zidan73s-team",
+    "slug": "zidan",
+    "android": {
+      "package": "com.zidan73.jamaanextdoor"
+    }
+  }
+}
