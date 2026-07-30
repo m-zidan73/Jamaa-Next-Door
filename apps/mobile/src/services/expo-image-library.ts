@@ -4,10 +4,7 @@ import type { ImageLibrary } from "../ports/image-library";
 export const expoImageLibrary: ImageLibrary = {
   async captureSelfie() {
     const permission = await ImagePicker.requestCameraPermissionsAsync();
-
-    if (!permission.granted) {
-      return { status: "permission-denied" };
-    }
+    if (!permission.granted) return { status: "permission-denied" };
 
     const result = await ImagePicker.launchCameraAsync({
       allowsEditing: true,
@@ -19,44 +16,27 @@ export const expoImageLibrary: ImageLibrary = {
       quality: 0.7,
     });
     const asset = result.assets?.[0];
-
-    if (result.canceled) {
-      return { status: "cancelled" };
-    }
-
+    if (result.canceled) return { status: "cancelled" };
     if (!asset?.uri || !asset.base64) {
-      return {
-        status: "error",
-        message: "The selfie could not be processed. Please try again.",
-      };
+      return { status: "error", message: "The selfie could not be processed. Please try again." };
     }
-
-    return {
-      status: "captured",
-      uri: asset.uri,
-      base64: asset.base64,
-      contentType: asset.mimeType ?? "image/jpeg",
-    };
+    return { status: "captured", uri: asset.uri, base64: asset.base64, contentType: asset.mimeType ?? "image/jpeg" };
   },
 
   async pickLocationImage() {
     const permission = await ImagePicker.requestMediaLibraryPermissionsAsync();
-
-    if (!permission.granted) {
-      return { status: "permission-denied" };
-    }
+    if (!permission.granted) return { status: "permission-denied" };
 
     const result = await ImagePicker.launchImageLibraryAsync({
       allowsEditing: true,
+      base64: true,
+      exif: false,
       mediaTypes: ImagePicker.MediaTypeOptions.Images,
       quality: 0.8,
     });
-    const uri = result.assets?.[0]?.uri;
-
-    if (result.canceled || !uri) {
-      return { status: "cancelled" };
-    }
-
-    return { status: "selected", uri };
+    const asset = result.assets?.[0];
+    if (result.canceled || !asset?.uri) return { status: "cancelled" };
+    if (!asset.base64) return { status: "error", message: "The location image could not be processed." };
+    return { status: "selected", uri: asset.uri, base64: asset.base64, contentType: asset.mimeType ?? "image/jpeg" };
   },
 };

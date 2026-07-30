@@ -60,6 +60,43 @@ describe("authentication session lifecycle", () => {
     });
   });
 
+  it("stays loading while a cold-start callback outruns the initial session event", async () => {
+    mockedLinking.getInitialURL.mockResolvedValue("jnd://auth/callback?code=delayed-code");
+    let completeCallback!: (result: {
+      handled: boolean;
+      isAuthenticated: boolean;
+      errorMessage: null;
+    }) => void;
+    const callbackResult = new Promise<{
+      handled: boolean;
+      isAuthenticated: boolean;
+      errorMessage: null;
+    }>((resolve) => {
+      completeCallback = resolve;
+    });
+    const authRepository = createAuthRepository({
+      completeSignInFromUrl: jest.fn().mockReturnValue(callbackResult),
+      subscribeToSession: jest.fn().mockImplementation((listener) => {
+        listener(false);
+        return jest.fn();
+      }),
+    });
+
+    renderProvider(authRepository);
+
+    await waitFor(() => expect(screen.getByText("loading")).toBeTruthy());
+
+    await act(async () => {
+      completeCallback({
+        handled: true,
+        isAuthenticated: true,
+        errorMessage: null,
+      });
+    });
+
+    await waitFor(() => expect(screen.getByText("signedIn")).toBeTruthy());
+  });
+
   it("completes a callback received during cold start", async () => {
     mockedLinking.getInitialURL.mockResolvedValue("jnd://auth/callback?code=cold-code");
     const authRepository = createAuthRepository();
@@ -73,6 +110,43 @@ describe("authentication session lifecycle", () => {
     expect(authRepository.restoreSession).not.toHaveBeenCalled();
   });
 
+  it("stays loading while a warm-start callback is being exchanged", async () => {
+    mockedLinking.getInitialURL.mockResolvedValue(null);
+    let completeCallback!: (result: {
+      handled: boolean;
+      isAuthenticated: boolean;
+      errorMessage: null;
+    }) => void;
+    const callbackResult = new Promise<{
+      handled: boolean;
+      isAuthenticated: boolean;
+      errorMessage: null;
+    }>((resolve) => {
+      completeCallback = resolve;
+    });
+    const authRepository = createAuthRepository({
+      completeSignInFromUrl: jest.fn().mockReturnValue(callbackResult),
+    });
+
+    renderProvider(authRepository);
+    await waitFor(() => expect(screen.getByText("signedOut")).toBeTruthy());
+
+    act(() => {
+      receiveUrl?.({ url: "jnd://auth/callback?code=delayed-warm-code" });
+    });
+
+    await waitFor(() => expect(screen.getByText("loading")).toBeTruthy());
+
+    await act(async () => {
+      completeCallback({
+        handled: true,
+        isAuthenticated: true,
+        errorMessage: null,
+      });
+    });
+
+    await waitFor(() => expect(screen.getByText("signedIn")).toBeTruthy());
+  });
   it("completes a callback received while the app is running", async () => {
     mockedLinking.getInitialURL.mockResolvedValue(null);
     const authRepository = createAuthRepository();

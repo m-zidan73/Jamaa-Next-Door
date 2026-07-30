@@ -3,11 +3,24 @@ import type { VerificationStatus } from "@jnd/core";
 import { supabase } from "../lib/supabase";
 import type {
   DiscoverableJamaah,
+  JamaahDetails,
   JamaahRepository,
   RepositoryResult,
 } from "../ports/jamaah-repository";
 import type { LocationService } from "../ports/location-service";
 import { expoLocationService } from "./expo-location-service";
+
+let realtimeChannelSequence = 0;
+
+function result<T>(data: T | null, error: { message?: string } | null): RepositoryResult<T> {
+  return { data, errorMessage: error?.message ?? null };
+}
+
+function configured(client: SupabaseClient | null, action: string): asserts client is SupabaseClient {
+  if (!client) {
+    throw new Error(`Configure Supabase credentials in .env before ${action}.`);
+  }
+}
 
 export function createSupabaseJamaahRepository(
   client: SupabaseClient | null,
@@ -15,48 +28,43 @@ export function createSupabaseJamaahRepository(
 ): JamaahRepository {
   return {
     async getLatestVerificationStatus() {
-      if (!client) {
-        return "not_submitted";
-      }
-
+      if (!client) return "not_submitted";
       const { data: userResult } = await client.auth.getUser();
-      const user = userResult.user;
-
-      if (!user) {
-        return "not_submitted";
-      }
-
+      if (!userResult.user) return "not_submitted";
       const { data, error } = await client
         .from("selfie_verifications")
         .select("status")
-        .eq("profile_id", user.id)
+        .eq("profile_id", userResult.user.id)
         .order("created_at", { ascending: false })
         .limit(1)
         .maybeSingle();
-
-      if (error || !data) {
-        return "not_submitted";
-      }
-
-      return data.status as VerificationStatus;
+      return error || !data ? "not_submitted" : data.status as VerificationStatus;
     },
 
     async fetchDiscoverableJamaahs() {
-      if (!client) {
-        throw new Error("Configure Supabase credentials in .env before loading jama'ahs.");
-      }
+      configured(client, "loading jama'ahs");
+      const { data, error } = await client.rpc("list_discoverable_jamaahs");
+      return result((data ?? []) as DiscoverableJamaah[], error);
+    },
 
-      return (await client.rpc("list_discoverable_jamaahs")) as RepositoryResult<DiscoverableJamaah[]>;
+    async fetchJamaahDetails(jamaahId) {
+      configured(client, "loading jama'ah details");
+      const { data, error } = await client.rpc("get_jamaah_details", { target_jamaah_id: jamaahId });
+      const row = (data?.[0] ?? null) as JamaahDetails | null;
+      if (error || !row) return result<JamaahDetails>(null, error ?? { message: "Jama'ah not found." });
+      let exactPhotoUrl: string | null = null;
+      if (row.exact_photo_path) {
+        const signed = await client.storage.from("jamaah-location-images").createSignedUrl(row.exact_photo_path, 600);
+        if (signed.error) return result<JamaahDetails>(null, signed.error);
+        exactPhotoUrl = signed.data.signedUrl;
+      }
+      return result({ ...row, exact_photo_url: exactPhotoUrl }, null);
     },
 
     async publishJamaah(input) {
-      if (!client) {
-        throw new Error("Configure Supabase credentials in .env before publishing a jama'ah.");
-      }
-
+      configured(client, "publishing a jama'ah");
       const coordinates = await locationService.getCurrentCoordinates();
-
-      return (await client.rpc("create_jamaah", {
+      const { data, error } = await client.rpc("create_jamaah", {
         p_prayer_name: input.prayerName,
         p_starts_at: input.startsAtIso,
         p_exact_address: input.exactAddress,
@@ -65,17 +73,37 @@ export function createSupabaseJamaahRepository(
         p_approximate_lng: coordinates.longitude,
         p_exact_lat: coordinates.latitude,
         p_exact_lng: coordinates.longitude,
-      })) as RepositoryResult;
+      });
+      const id = typeof data === "string" ? data : data?.id;
+      return result(id ? { jamaahId: id } : null, error ?? (!id ? { message: "Jama'ah creation returned no ID." } : null));
     },
 
     async joinJamaah(jamaahId) {
-      if (!client) {
-        throw new Error("Configure Supabase credentials in .env before joining a jama'ah.");
-      }
+      configured(client, "joining a jama'ah");
+      const { error } = await client.rpc("join_jamaah", { target_jamaah_id: jamaahId });
+      return result(error ? null : true, error);
+    },
 
-      return (await client.rpc("join_jamaah", {
-        target_jamaah_id: jamaahId,
-      })) as RepositoryResult;
+    async cancelJamaah(jamaahId) {
+      configured(client, "cancelling a jama'ah");
+      const { error } = await client.rpc("cancel_jamaah", { target_jamaah_id: jamaahId });
+      return result(error ? null : true, error);
+    },
+
+    async concludeJamaah(jamaahId) {
+      configured(client, "concluding a jama'ah");
+      const { error } = await client.rpc("conclude_jamaah", { target_jamaah_id: jamaahId });
+      return result(error ? null : true, error);
+    },
+
+    subscribeToChanges(onChange) {
+      if (!client) return () => undefined;
+      realtimeChannelSequence += 1;
+      const channel = client.channel(`jamaahs-live-${realtimeChannelSequence}`)
+        .on("postgres_changes", { event: "*", schema: "public", table: "jamaahs" }, onChange)
+        .on("postgres_changes", { event: "*", schema: "public", table: "jamaah_participants" }, onChange)
+        .subscribe();
+      return () => { void client.removeChannel(channel); };
     },
   };
 }

@@ -91,3 +91,23 @@ describe("Supabase authentication callbacks", () => {
     expect(client.auth.setSession).not.toHaveBeenCalled();
   });
 });
+describe("Jamaah Realtime subscriptions", () => {
+  it("uses independent channel names for concurrent screens", () => {
+    const channels: string[] = [];
+    const channel = { on: jest.fn().mockReturnThis(), subscribe: jest.fn().mockReturnThis() };
+    const client = {
+      channel: jest.fn((name: string) => { channels.push(name); return channel; }),
+      removeChannel: jest.fn(),
+    };
+    const repository = createSupabaseJamaahRepository(client as never, { getCurrentCoordinates: jest.fn() });
+
+    const unsubscribeHome = repository.subscribeToChanges(jest.fn());
+    const unsubscribeDetails = repository.subscribeToChanges(jest.fn());
+
+    expect(channels).toHaveLength(2);
+    expect(channels[0]).not.toBe(channels[1]);
+    unsubscribeHome();
+    unsubscribeDetails();
+    expect(client.removeChannel).toHaveBeenCalledTimes(2);
+  });
+});

@@ -15,7 +15,8 @@
       "expo-router",
       "expo-secure-store",
       "expo-notifications",
-      "expo-location"
+      "expo-location",
+      "@react-native-community/datetimepicker"
     ],
     "android": {
       "package": "com.zidan73.jamaanextdoor",

@@ -5,6 +5,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { i18n } from "../lib/i18n";
 import { AuthSessionProvider } from "./auth-session-provider";
 import { DependenciesProvider } from "./dependencies-provider";
+import { NotificationBootstrap } from "./notification-bootstrap";
 
 const queryClient = new QueryClient();
 
@@ -13,9 +14,11 @@ export function AppProvider({ children }: PropsWithChildren) {
     <DependenciesProvider>
       <SafeAreaProvider>
         <AuthSessionProvider>
-          <I18nextProvider i18n={i18n}>
-            <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
-          </I18nextProvider>
+          <NotificationBootstrap>
+            <I18nextProvider i18n={i18n}>
+              <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+            </I18nextProvider>
+          </NotificationBootstrap>
         </AuthSessionProvider>
       </SafeAreaProvider>
     </DependenciesProvider>

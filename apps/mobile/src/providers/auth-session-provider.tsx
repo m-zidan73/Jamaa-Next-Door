@@ -7,6 +7,7 @@ import {
   useState,
 } from "react";
 import * as Linking from "expo-linking";
+import { parseAuthCallback } from "../features/auth/auth-callback";
 import { useAppDependencies } from "./dependencies-provider";
 
 export type AuthSessionStatus = "loading" | "signedIn" | "signedOut";
@@ -29,9 +30,10 @@ export function AuthSessionProvider({ children }: PropsWithChildren) {
 
   useEffect(() => {
     let active = true;
+    let bootstrapComplete = false;
 
     const unsubscribeFromSession = authRepository.subscribeToSession((isAuthenticated) => {
-      if (active) {
+      if (active && bootstrapComplete) {
         setStatus(isAuthenticated ? "signedIn" : "signedOut");
       }
     });
@@ -41,6 +43,11 @@ export function AuthSessionProvider({ children }: PropsWithChildren) {
         return { handled: true, isAuthenticated: false, errorMessage: null };
       }
       processedUrls.current.add(url);
+
+      if (parseAuthCallback(url).type !== "none") {
+        setCallbackError(null);
+        setStatus("loading");
+      }
 
       const result = await authRepository.completeSignInFromUrl(url);
       if (!active || !result.handled) {
@@ -64,16 +71,19 @@ export function AuthSessionProvider({ children }: PropsWithChildren) {
       const initialUrl = await Linking.getInitialURL();
       const callbackResult = initialUrl ? await processUrl(initialUrl) : null;
 
-      if (!active || callbackResult?.handled) {
-        return;
-      }
-
-      const restored = await authRepository.restoreSession();
       if (!active) {
         return;
       }
-      setCallbackError(restored.errorMessage);
-      setStatus(restored.isAuthenticated ? "signedIn" : "signedOut");
+
+      if (!callbackResult?.handled) {
+        const restored = await authRepository.restoreSession();
+        if (!active) {
+          return;
+        }
+        setCallbackError(restored.errorMessage);
+        setStatus(restored.isAuthenticated ? "signedIn" : "signedOut");
+      }
+      bootstrapComplete = true;
     })();
 
     return () => {

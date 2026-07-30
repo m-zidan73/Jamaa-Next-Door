@@ -9,12 +9,15 @@
     "test": "jest --runInBand",
     "test:watch": "jest --watch",
     "typecheck": "tsc --noEmit",
-    "build:android:preview": "eas build --platform android --profile preview"
+    "build:android:preview": "eas build --platform android --profile preview",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
     "@expo/vector-icons": "~14.0.4",
     "@hookform/resolvers": "^3.9.1",
     "@jnd/core": "*",
+    "@react-native-community/datetimepicker": "8.2.0",
     "@react-native-picker/picker": "2.9.0",
     "@supabase/supabase-js": "^2.49.1",
     "@tanstack/react-query": "^5.62.7",

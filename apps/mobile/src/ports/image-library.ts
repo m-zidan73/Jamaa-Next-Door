@@ -1,7 +1,8 @@
 export type ImageLibraryResult =
   | { status: "cancelled" }
   | { status: "permission-denied" }
-  | { status: "selected"; uri: string };
+  | { status: "error"; message: string }
+  | { status: "selected"; uri: string; base64: string; contentType: string };
 
 export type SelfieCaptureResult =
   | { status: "cancelled" }

@@ -1,5 +1,5 @@
 import { ActivityIndicator, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
-import { Link } from "expo-router";
+import { Link, Redirect } from "expo-router";
 import { useTranslation } from "react-i18next";
 import { colors, radii, shadows, spacing } from "../../src/theme/tokens";
 import { useLoginController } from "../../src/features/auth/use-login-controller";
@@ -9,7 +9,11 @@ import { useAuthSession } from "../../src/providers/auth-session-provider";
 export default function LoginScreen() {
   const { t } = useTranslation();
   const { email, loading, message, sendMagicLink, setEmail } = useLoginController();
-  const { callbackError } = useAuthSession();
+  const { callbackError, status } = useAuthSession();
+
+  if (status === "signedIn") {
+    return <Redirect href={routes.profileSetup} />;
+  }
 
   return (
     <View style={styles.screen}>
