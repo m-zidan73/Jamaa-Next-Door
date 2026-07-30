@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 export const profileSetupSchema = z.object({
-  displayName: z.string().min(2),
+  displayName: z.string().trim().min(2, "Enter at least 2 characters."),
   phone: z.string().optional(),
   isAdult: z.boolean().refine((value) => value, "Adult consent is required."),
 });

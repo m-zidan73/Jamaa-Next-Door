@@ -1,13 +1,14 @@
 import { Redirect } from "expo-router";
 import { ActivityIndicator, StyleSheet, View } from "react-native";
-import { routes } from "../src/navigation/routes";
+import { useProfileEntryRoute } from "../src/features/profile/use-profile-entry-route";
 import { useAuthSession } from "../src/providers/auth-session-provider";
 import { colors } from "../src/theme/tokens";
 
 export default function Index() {
   const { status } = useAuthSession();
+  const entryRoute = useProfileEntryRoute(status);
 
-  if (status === "loading") {
+  if (!entryRoute) {
     return (
       <View style={styles.loading}>
         <ActivityIndicator color={colors.gold} />
@@ -15,7 +16,7 @@ export default function Index() {
     );
   }
 
-  return <Redirect href={status === "signedIn" ? routes.profileSetup : routes.login} />;
+  return <Redirect href={entryRoute} />;
 }
 
 const styles = StyleSheet.create({
