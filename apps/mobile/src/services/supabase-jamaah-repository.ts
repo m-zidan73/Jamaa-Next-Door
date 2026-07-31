@@ -90,9 +90,9 @@ export function createSupabaseJamaahRepository(
       return result(error ? null : true, error);
     },
 
-    async concludeJamaah(jamaahId) {
-      configured(client, "concluding a jama'ah");
-      const { error } = await client.rpc("conclude_jamaah", { target_jamaah_id: jamaahId });
+    async leaveJamaah(jamaahId) {
+      configured(client, "leaving a jama'ah");
+      const { error } = await client.rpc("leave_jamaah", { target_jamaah_id: jamaahId });
       return result(error ? null : true, error);
     },
 

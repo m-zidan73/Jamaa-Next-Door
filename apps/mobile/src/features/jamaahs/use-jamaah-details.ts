@@ -23,18 +23,20 @@ export function useJamaahDetails(jamaahId: string) {
   }), [jamaahRepository, queryClient, jamaahId]);
 
   async function run(action: () => Promise<{ data: true | null; errorMessage: string | null }>) {
-    if (acting) return;
+    if (acting) return false;
     setActing(true);
     setActionError(null);
     const result = await action();
     setActing(false);
-    if (result.errorMessage) setActionError(result.errorMessage);
-    else {
-      await Promise.all([
-        queryClient.invalidateQueries({ queryKey: key }),
-        queryClient.invalidateQueries({ queryKey: ["jamaahs", "discoverable"] }),
-      ]);
+    if (result.errorMessage) {
+      setActionError(result.errorMessage);
+      return false;
     }
+    await Promise.all([
+      queryClient.invalidateQueries({ queryKey: key }),
+      queryClient.invalidateQueries({ queryKey: ["jamaahs", "discoverable"] }),
+    ]);
+    return true;
   }
 
   return {
@@ -42,7 +44,7 @@ export function useJamaahDetails(jamaahId: string) {
     acting,
     actionError,
     join: () => run(() => jamaahRepository.joinJamaah(jamaahId)),
+    leave: () => run(() => jamaahRepository.leaveJamaah(jamaahId)),
     cancel: () => run(() => jamaahRepository.cancelJamaah(jamaahId)),
-    conclude: () => run(() => jamaahRepository.concludeJamaah(jamaahId)),
   };
 }

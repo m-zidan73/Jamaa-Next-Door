@@ -31,6 +31,9 @@ describe("service adapters without runtime credentials", () => {
     await expect(repository.joinJamaah("demo")).rejects.toThrow(
       "Configure Supabase credentials in .env before joining a jama'ah.",
     );
+    await expect(repository.leaveJamaah("demo")).rejects.toThrow(
+      "Configure Supabase credentials in .env before leaving a jama'ah.",
+    );
     expect(getCurrentCoordinates).not.toHaveBeenCalled();
   });
 });

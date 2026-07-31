@@ -1,3 +1,3 @@
 export interface AppNavigation {
-  openJamaahDetails(jamaahId: string): void;
+  openJamaahHome(jamaahId?: string): void;
 }

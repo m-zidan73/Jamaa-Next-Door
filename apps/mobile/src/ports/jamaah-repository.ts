@@ -40,7 +40,7 @@ export interface JamaahRepository {
   fetchJamaahDetails(jamaahId: string): Promise<RepositoryResult<JamaahDetails>>;
   publishJamaah(input: PublishJamaahInput): Promise<RepositoryResult<{ jamaahId: string }>>;
   joinJamaah(jamaahId: string): Promise<RepositoryResult<true>>;
+  leaveJamaah(jamaahId: string): Promise<RepositoryResult<true>>;
   cancelJamaah(jamaahId: string): Promise<RepositoryResult<true>>;
-  concludeJamaah(jamaahId: string): Promise<RepositoryResult<true>>;
   subscribeToChanges(onChange: () => void): () => void;
 }

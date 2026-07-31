@@ -75,7 +75,7 @@ export function useCreateJamaahController() {
       }
 
       setState("success");
-      navigation.openJamaahDetails(publication.data.jamaahId);
+      navigation.openJamaahHome();
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : "Jama'ah publication failed.");
       setState("error");
