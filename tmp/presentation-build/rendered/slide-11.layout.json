@@ -1,0 +1,1831 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/nlhy2j",
+    "id": "nlhy2j",
+    "slide": 11,
+    "layoutId": "48a6c8cc-5da8-4b2d-ba0d-71ba5e11b624",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "cf217460-236b-45a2-95c8-6e91fbe8a044",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#102F33",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Jamaa Next Door",
+    "colors": {
+      "accent1": "#063E4D",
+      "accent2": "#E7C48D",
+      "accent3": "#89A98F",
+      "accent4": "#0B4B58",
+      "accent5": "#C8766B",
+      "accent6": "#AEB7B8",
+      "bg1": "#F7F5F2",
+      "bg2": "#EEE9DF",
+      "tx1": "#16363B",
+      "tx2": "#5F7377",
+      "dk1": "#102F33",
+      "dk2": "#063E4D",
+      "lt1": "#FFFFFF",
+      "lt2": "#F7F5F2",
+      "hlink": "#E7C48D",
+      "folHlink": "#89A98F"
+    },
+    "typefaces": [
+      "Aptos",
+      "Consolas",
+      "Georgia"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "48a6c8cc-5da8-4b2d-ba0d-71ba5e11b624",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "cf217460-236b-45a2-95c8-6e91fbe8a044",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "cf217460-236b-45a2-95c8-6e91fbe8a044",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cbq1cba",
+      "id": "1",
+      "bbox": [
+        58,
+        34,
+        52,
+        30
+      ],
+      "geometry": "rect",
+      "text": "11",
+      "textPreview": "11",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#E7C48D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "11",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#E7C48D",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "11",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#E7C48D",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ep0r6hcz",
+      "id": "2",
+      "bbox": [
+        116,
+        47,
+        54,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#89A98F",
+      "lineWidth": 2
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fq98zmt4",
+      "id": "3",
+      "bbox": [
+        188,
+        26,
+        1034,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Direct access shortened the feedback loop",
+      "textPreview": "Direct access shortened the feedback loop",
+      "resolvedFontSize": 35,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 35,
+        "typeface": "Georgia",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Direct access shortened the feedback loop"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Direct access shortened the feedback loop",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 35,
+            "typeface": "Georgia",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Direct access shortened the feedback loop",
+              "fontSize": 35,
+              "typeface": "Georgia",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/of29cru1",
+      "id": "4",
+      "bbox": [
+        96,
+        508,
+        28,
+        28
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E7C48D",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pgba5wbm",
+      "id": "5",
+      "bbox": [
+        93,
+        512,
+        34,
+        20
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#102F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#102F33",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#102F33",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2dkrahcv",
+      "id": "6",
+      "bbox": [
+        30,
+        546,
+        160,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Screenshots + written reports",
+      "textPreview": "Screenshots + written reports",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Screenshots + written"
+          },
+          {
+            "index": 2,
+            "text": "reports"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Screenshots + written reports",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Screenshots + written reports",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/net83mtg",
+      "id": "7",
+      "bbox": [
+        286,
+        442,
+        28,
+        28
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E7C48D",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4ji90nuh",
+      "id": "8",
+      "bbox": [
+        283,
+        446,
+        34,
+        20
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#102F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#102F33",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#102F33",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5krqtsb2",
+      "id": "9",
+      "bbox": [
+        220,
+        480,
+        160,
+        48
+      ],
+      "geometry": "rect",
+      "text": "USB debugging + ADB",
+      "textPreview": "USB debugging + ADB",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "USB debugging + ADB"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "USB debugging + ADB",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "USB debugging + ADB",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wz6tsnm",
+      "id": "10",
+      "bbox": [
+        478,
+        376,
+        28,
+        28
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E7C48D",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvq5kn61",
+      "id": "11",
+      "bbox": [
+        475,
+        380,
+        34,
+        20
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#102F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#102F33",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#102F33",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fahori5g",
+      "id": "12",
+      "bbox": [
+        412,
+        414,
+        160,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Direct APK installation",
+      "textPreview": "Direct APK installation",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Direct APK installation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Direct APK installation",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Direct APK installation",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9onidov",
+      "id": "13",
+      "bbox": [
+        670,
+        310,
+        28,
+        28
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E7C48D",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0z6xsni",
+      "id": "14",
+      "bbox": [
+        667,
+        314,
+        34,
+        20
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#102F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#102F33",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#102F33",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozqpon6d",
+      "id": "15",
+      "bbox": [
+        604,
+        348,
+        160,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Device logs + reproduction",
+      "textPreview": "Device logs + reproduction",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Device logs +"
+          },
+          {
+            "index": 2,
+            "text": "reproduction"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Device logs + reproduction",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Device logs + reproduction",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3yhovi5s",
+      "id": "16",
+      "bbox": [
+        862,
+        244,
+        28,
+        28
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E7C48D",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x87mxo7",
+      "id": "17",
+      "bbox": [
+        859,
+        248,
+        34,
+        20
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#102F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#102F33",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#102F33",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4j61cnu",
+      "id": "18",
+      "bbox": [
+        796,
+        282,
+        160,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Browser-assisted setup",
+      "textPreview": "Browser-assisted setup",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Browser-assisted setup"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Browser-assisted setup",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Browser-assisted setup",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3aps769",
+      "id": "19",
+      "bbox": [
+        1046,
+        178,
+        28,
+        28
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E7C48D",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7i9obul",
+      "id": "20",
+      "bbox": [
+        1043,
+        182,
+        34,
+        20
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#102F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#102F33",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#102F33",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8rqxgv6",
+      "id": "21",
+      "bbox": [
+        980,
+        216,
+        160,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Rebuild -> install -> verify",
+      "textPreview": "Rebuild -> install -> verify",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Rebuild -> install ->"
+          },
+          {
+            "index": 2,
+            "text": "verify"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Rebuild -> install -> verify",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Rebuild -> install -> verify",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5grm1cf",
+      "id": "22",
+      "bbox": [
+        76,
+        130,
+        430,
+        224
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#071D21",
+      "lineColor": "rgba(255, 255, 255, 0.12)",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v698v6d0",
+      "id": "23",
+      "bbox": [
+        100,
+        151,
+        180,
+        22
+      ],
+      "geometry": "rect",
+      "text": "DEVICE EVIDENCE",
+      "textPreview": "DEVICE EVIDENCE",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#89A98F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DEVICE EVIDENCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DEVICE EVIDENCE",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#89A98F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DEVICE EVIDENCE",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#89A98F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbi9svuh",
+      "id": "24",
+      "bbox": [
+        100,
+        187,
+        372,
+        145
+      ],
+      "geometry": "rect",
+      "text": "> adb devices\n> adb install -r jamaa-next-door.apk\n> adb logcat | findstr AuthSession\n\nMagic-link callback\nCrypto compatibility\nBlank details route",
+      "textPreview": "> adb devices | > adb install -r jamaa-next-door.apk | > adb logcat | findstr AuthSession |  | Magic-link callback | Crypto compatibility...",
+      "resolvedFontSize": 15.31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Consolas",
+        "color": "#F7F5F2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.9,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "> adb devices"
+          },
+          {
+            "index": 2,
+            "text": "> adb install -r jamaa-next-door.apk"
+          },
+          {
+            "index": 3,
+            "text": "> adb logcat | findstr AuthSession"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "Magic-link callback"
+          },
+          {
+            "index": 6,
+            "text": "Crypto compatibility"
+          },
+          {
+            "index": 7,
+            "text": "Blank details route"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "> adb devices",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Consolas",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "> adb devices",
+              "fontSize": 17,
+              "typeface": "Consolas",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "> adb install -r jamaa-next-door.apk",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Consolas",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "> adb install -r jamaa-next-door.apk",
+              "fontSize": 17,
+              "typeface": "Consolas",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "> adb logcat | findstr AuthSession",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Consolas",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "> adb logcat | findstr AuthSession",
+              "fontSize": 17,
+              "typeface": "Consolas",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "Magic-link callback",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Consolas",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Magic-link callback",
+              "fontSize": 17,
+              "typeface": "Consolas",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "Crypto compatibility",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Consolas",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Crypto compatibility",
+              "fontSize": 17,
+              "typeface": "Consolas",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "Blank details route",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Consolas",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Blank details route",
+              "fontSize": 17,
+              "typeface": "Consolas",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5crq1gv2",
+      "id": "25",
+      "bbox": [
+        730,
+        468,
+        454,
+        144
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B4B58",
+      "lineColor": "rgba(255, 255, 255, 0.12)",
+      "lineWidth": 1
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i90rqlcb",
+      "id": "26",
+      "bbox": [
+        755,
+        490,
+        400,
+        24
+      ],
+      "geometry": "rect",
+      "text": "BROWSER-ASSISTED CONFIGURATION",
+      "textPreview": "BROWSER-ASSISTED CONFIGURATION",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#E7C48D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BROWSER-ASSISTED CONFIGURATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BROWSER-ASSISTED CONFIGURATION",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#E7C48D",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BROWSER-ASSISTED CONFIGURATION",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#E7C48D",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ja98zqdw",
+      "id": "27",
+      "bbox": [
+        755,
+        530,
+        400,
+        58
+      ],
+      "geometry": "rect",
+      "text": "NAMECHEAP   ->   RESEND   ->   SUPABASE\nDNS records      SMTP domain      Auth redirects",
+      "textPreview": "NAMECHEAP   ->   RESEND   ->   SUPABASE | DNS records      SMTP domain      Auth redirects",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "color": "#F7F5F2",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NAMECHEAP   ->   RESEND   ->   SUPABASE"
+          },
+          {
+            "index": 2,
+            "text": "DNS records      SMTP domain      Auth redirects"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NAMECHEAP   ->   RESEND   ->   SUPABASE",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "alignment": "center",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NAMECHEAP   ->   RESEND   ->   SUPABASE",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "alignment": "center",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "DNS records      SMTP domain      Auth redirects",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "alignment": "center",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DNS records      SMTP domain      Auth redirects",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "alignment": "center",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fypgred",
+      "id": "28",
+      "bbox": [
+        58,
+        686,
+        190,
+        18
+      ],
+      "geometry": "rect",
+      "text": "JAMAA NEXT DOOR",
+      "textPreview": "JAMAA NEXT DOOR",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#AEB7B8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "JAMAA NEXT DOOR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "JAMAA NEXT DOOR",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#AEB7B8",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "JAMAA NEXT DOOR",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#AEB7B8",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lg7qpwvy",
+      "id": "29",
+      "bbox": [
+        1182,
+        684,
+        42,
+        20
+      ],
+      "geometry": "rect",
+      "text": "11",
+      "textPreview": "11",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#E7C48D",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "11",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#E7C48D",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "11",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#E7C48D",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

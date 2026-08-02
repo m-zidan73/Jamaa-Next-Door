@@ -1,0 +1,361 @@
+{"kind":"deck","id":"pr/r5cccm","name":"Deck"}
+{"kind":"layout","layoutId":"cf217460-236b-45a2-95c8-6e91fbe8a044","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"48a6c8cc-5da8-4b2d-ba0d-71ba5e11b624","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/x3fjlz","slide":1,"title":"Jamaa Next Door","textShapes":5}
+{"kind":"shape","id":"sh/kze1cvq5","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/l0n2l0rq","slide":1,"bbox":[790,70,360,570]}
+{"kind":"shape","id":"sh/a9cj6l83","slide":1,"bbox":[961,341,18,18]}
+{"kind":"shape","id":"sh/bal0fq9o","slide":1,"bbox":[92,96,0,492]}
+{"kind":"textbox","id":"sh/cbu18vqt","slide":1,"text":"Jamaa Next Door","textPreview":"Jamaa Next Door","textChars":15,"textLines":1,"bbox":[126,108,720,92]}
+{"kind":"textbox","id":"sh/xc3ih0re","slide":1,"text":"A platform to unify Muslims","textPreview":"A platform to unify Muslims","textChars":27,"textLines":1,"bbox":[132,214,610,42]}
+{"kind":"textbox","id":"sh/u5wjip87","slide":1,"text":"PROJECT PRESENTATION","textPreview":"PROJECT PRESENTATION","textChars":20,"textLines":1,"bbox":[132,310,360,28]}
+{"kind":"textbox","id":"sh/v65krups","slide":1,"text":"Mohitur Rahman Zidan","textPreview":"Mohitur Rahman Zidan","textChars":20,"textLines":1,"bbox":[132,350,540,52]}
+{"kind":"textbox","id":"sh/radgrilo","slide":1,"text":"Augmented and Virtual Reality Design\nExperimental XR Interactions & Interfaces\nSummer Semester - 2026\nTutored by David Bachmann","textPreview":"Augmented and Virtual Reality Design | Experimental XR Interactions & Interfaces | Summer Semester - 2026 | Tutored by David Bachmann","textChars":127,"textLines":4,"bbox":[132,518,560,110]}
+{"kind":"image","id":"im/2hwzyxc7","slide":1,"name":"","alt":"Atmospheric arch portfolio cover artwork","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/x3fjlz","slide":1,"text":"Open with the project name and mission. Establish that the presentation will connect a personal need to a working, responsibly designed Android prototype.\n\n[Sources]\n- Project portfolio cover artwork: output/documentation/cover-variations/jnd-cover-05-atmospheric-arch-portfolio.png\n- Project metadata supplied by Mohitur Rahman Zidan."}
+{"kind":"slide","id":"sl/eqe8nq","slide":2,"title":"02","textShapes":7}
+{"kind":"shape","id":"sh/nm5cvmpk","slide":2,"bbox":[0,0,685,720]}
+{"kind":"textbox","id":"sh/2lwv218z","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/xc7u1g7m","slide":2,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/wbyd8bq1","slide":2,"text":"The idea began with religious isolation","textPreview":"The idea began with religious isolation","textChars":39,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"textbox","id":"sh/bqpcz6pw","slide":2,"text":"For two months, I lived in Germany without a mosque nearby.","textPreview":"For two months, I lived in Germany without a mosque nearby.","textChars":59,"textLines":1,"bbox":[82,160,520,94]}
+{"kind":"textbox","id":"sh/apgv618b","slide":2,"text":"Muslims lived around me, but there was no simple way to find each other for congregational prayer.","textPreview":"Muslims lived around me, but there was no simple way to find each other for congregational prayer.","textChars":98,"textLines":1,"bbox":[82,286,500,92]}
+{"kind":"shape","id":"sh/lgru5g7y","slide":2,"bbox":[82,420,480,0]}
+{"kind":"textbox","id":"sh/kfydcbqd","slide":2,"text":"Could nearby Muslims coordinate safely when the mosque is inaccessible or its Jama'ah has already passed?","textPreview":"Could nearby Muslims coordinate safely when the mosque is inaccessible or its Jama'ah has already passed?","textChars":105,"textLines":1,"bbox":[82,446,500,112]}
+{"kind":"textbox","id":"sh/21cn6pcn","slide":2,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/3254fut8","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"image","id":"im/po3ml4zq","slide":2,"name":"","alt":"Editorial neighborhood illustration generated for the presentation","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/eqe8nq","slide":2,"text":"Explain the two-month experience and why the absence of coordination felt painful despite Muslims living nearby. Use the final question to transition from personal experience to a design problem.\n\n[Sources]\n- Personal account supplied by Mohitur Rahman Zidan.\n- AI-generated editorial illustration created for this presentation; no identifiable persons depicted."}
+{"kind":"slide","id":"sl/lj24fy","slide":3,"title":"03","textShapes":14}
+{"kind":"textbox","id":"sh/1sfm18ny","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/ep4n6t47","slide":3,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/zqd4zy5s","slide":3,"text":"The gap is coordination, not always the absence of people","textPreview":"The gap is coordination, not always the absence of people","textChars":57,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"shape","id":"sh/ov65c3m9","slide":3,"bbox":[280,205,360,147]}
+{"kind":"shape","id":"sh/9wfm58nu","slide":3,"bbox":[640,205,360,147]}
+{"kind":"shape","id":"sh/mtonad43","slide":3,"bbox":[280,352,360,153]}
+{"kind":"shape","id":"sh/nux43y5o","slide":3,"bbox":[640,352,360,153]}
+{"kind":"shape","id":"sh/wzq5gnml","slide":3,"bbox":[530,242,220,220]}
+{"kind":"textbox","id":"sh/xkzm9snq","slide":3,"text":"Missing\nJama'ah","textPreview":"Missing | Jama'ah","textChars":15,"textLines":2,"bbox":[552,304,176,100]}
+{"kind":"textbox","id":"sh/dwbul8fu","slide":3,"text":"ACCESS","textPreview":"ACCESS","textChars":6,"textLines":1,"bbox":[95,144,290,24]}
+{"kind":"textbox","id":"sh/cv2tc3y9","slide":3,"text":"No nearby mosque or religious center","textPreview":"No nearby mosque or religious center","textChars":36,"textLines":1,"bbox":[95,178,300,70]}
+{"kind":"textbox","id":"sh/rutcjyho","slide":3,"text":"TIMING","textPreview":"TIMING","textChars":6,"textLines":1,"bbox":[890,144,290,24]}
+{"kind":"textbox","id":"sh/qt0badg3","slide":3,"text":"Work, classes, meetings or travel","textPreview":"Work, classes, meetings or travel","textChars":33,"textLines":1,"bbox":[890,178,300,70]}
+{"kind":"textbox","id":"sh/10bupsfq","slide":3,"text":"AWARENESS","textPreview":"AWARENESS","textChars":9,"textLines":1,"bbox":[95,478,290,24]}
+{"kind":"textbox","id":"sh/0z2tgny5","slide":3,"text":"Muslims may be nearby but disconnected","textPreview":"Muslims may be nearby but disconnected","textChars":38,"textLines":1,"bbox":[95,512,300,70]}
+{"kind":"textbox","id":"sh/zytcnix0","slide":3,"text":"TRUST","textPreview":"TRUST","textChars":5,"textLines":1,"bbox":[890,478,290,24]}
+{"kind":"textbox","id":"sh/exkbedgf","slide":3,"text":"Location and identity cannot be exposed carelessly","textPreview":"Location and identity cannot be exposed carelessly","textChars":50,"textLines":1,"bbox":[890,512,300,70]}
+{"kind":"textbox","id":"sh/h4rudozm","slide":3,"text":"Worker   /   Student   /   Traveler   /   New arrival   /   Local host","textPreview":"Worker   /   Student   /   Traveler   /   New arrival   /   Local host","textChars":70,"textLines":1,"bbox":[185,621,910,30]}
+{"kind":"textbox","id":"sh/g3it4jy1","slide":3,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/8n2tk36x","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"notes","id":"nt/lj24fy","slide":3,"text":"Frame the problem as a coordination gap shaped by four constraints. The five situations show that the need is broader than one demographic or routine.\n\n[Sources]\n- Problem framing derived from the project portfolio and user-provided motivation."}
+{"kind":"slide","id":"sl/qmrw1k","slide":4,"title":"04","textShapes":7}
+{"kind":"textbox","id":"sh/p8b6dcjq","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/25kn2hkf","slide":4,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/n6tobm1k","slide":4,"text":"The prototype turns the need into a time-bounded journey","textPreview":"The prototype turns the need into a time-bounded journey","textChars":56,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"textbox","id":"sh/cb2p8r2h","slide":4,"text":"One central flow carries the user from trust-building access to a gathering that ends at its scheduled time.","textPreview":"One central flow carries the user from trust-building access to a gathering that ends at its scheduled time.","textChars":108,"textLines":1,"bbox":[122,105,1036,38]}
+{"kind":"shape","id":"sh/a9k76hkb","slide":4,"bbox":[455,202,212,312]}
+{"kind":"textbox","id":"sh/batofm1w","slide":4,"text":"REVIEW + CONFIRM","textPreview":"REVIEW + CONFIRM","textChars":16,"textLines":1,"bbox":[450,536,220,24]}
+{"kind":"shape","id":"sh/sfi5w72x","slide":4,"bbox":[902,572,170,0]}
+{"kind":"textbox","id":"sh/dgr65s3i","slide":4,"text":"AUTOMATIC END","textPreview":"AUTOMATIC END","textChars":13,"textLines":1,"bbox":[900,584,176,22]}
+{"kind":"textbox","id":"sh/9onyls7m","slide":4,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/8nehsnq1","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"image","id":"im/sv6lov6t","slide":4,"name":"","alt":"Product flow extracted from the project portfolio","bbox":[100,170,1080,462]}
+{"kind":"notes","id":"nt/qmrw1k","slide":4,"text":"Walk through the journey at a high level before discussing individual UX and technical decisions. Emphasize review before publication and automatic ending as deliberate safeguards.\n\n[Sources]\n- Project portfolio, page 19: product-flow graphic."}
+{"kind":"slide","id":"sl/7k8jkx","slide":5,"title":"05","textShapes":15}
+{"kind":"textbox","id":"sh/rats32d0","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/sb29w7ul","slide":5,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/tcba5sv6","slide":5,"text":"Reference interactions clarified the missing transitions","textPreview":"Reference interactions clarified the missing transitions","textChars":56,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"textbox","id":"sh/ed4ryxcb","slide":5,"text":"REFERENCE APPLICATION INTERACTION STUDY","textPreview":"REFERENCE APPLICATION INTERACTION STUDY","textChars":39,"textLines":1,"bbox":[72,112,500,24]}
+{"kind":"shape","id":"sh/feds72dw","slide":5,"bbox":[72,145,1136,0]}
+{"kind":"textbox","id":"sh/1gva9cv2","slide":5,"text":"Home action","textPreview":"Home action","textChars":11,"textLines":1,"bbox":[70,532,186,26]}
+{"kind":"shape","id":"sh/uh0rmdw7","slide":5,"bbox":[254,342,42,0]}
+{"kind":"shape","id":"sh/vi98vids","slide":5,"bbox":[280,334,22,16]}
+{"kind":"textbox","id":"sh/qt0zihwr","slide":5,"text":"Creation form","textPreview":"Creation form","textChars":13,"textLines":1,"bbox":[296,532,186,26]}
+{"kind":"shape","id":"sh/dwridwvi","slide":5,"bbox":[480,342,42,0]}
+{"kind":"shape","id":"sh/cvihkrex","slide":5,"bbox":[506,334,22,16]}
+{"kind":"textbox","id":"sh/ipgzehwv","slide":5,"text":"Published nearby item","textPreview":"Published nearby item","textChars":21,"textLines":1,"bbox":[522,532,186,26]}
+{"kind":"shape","id":"sh/psri9cv6","slide":5,"bbox":[706,342,42,0]}
+{"kind":"shape","id":"sh/4ryhgrel","slide":5,"bbox":[732,334,22,16]}
+{"kind":"textbox","id":"sh/u1gzaxwj","slide":5,"text":"Contextual details","textPreview":"Contextual details","textChars":18,"textLines":1,"bbox":[748,532,186,26]}
+{"kind":"shape","id":"sh/yxwjmxgr","slide":5,"bbox":[988,164,0,430]}
+{"kind":"textbox","id":"sh/jy50f2hw","slide":5,"text":"ADAPTED FOR JAMAA NEXT DOOR","textPreview":"ADAPTED FOR JAMAA NEXT DOOR","textChars":27,"textLines":1,"bbox":[1018,170,200,48]}
+{"kind":"shape","id":"sh/kze1o7yh","slide":5,"bbox":[1019,246,8,8]}
+{"kind":"textbox","id":"sh/l0nihcz2","slide":5,"text":"Review before publication","textPreview":"Review before publication","textChars":25,"textLines":1,"bbox":[1038,238,188,52]}
+{"kind":"shape","id":"sh/6lgjqhgn","slide":5,"bbox":[1019,308,8,8]}
+{"kind":"textbox","id":"sh/7mp0jmh8","slide":5,"text":"Time-sorted discovery","textPreview":"Time-sorted discovery","textChars":21,"textLines":1,"bbox":[1038,300,188,52]}
+{"kind":"shape","id":"sh/8ny1s7yt","slide":5,"bbox":[1019,370,8,8]}
+{"kind":"textbox","id":"sh/to7ilcze","slide":5,"text":"Bottom-sheet details","textPreview":"Bottom-sheet details","textChars":20,"textLines":1,"bbox":[1038,362,188,52]}
+{"kind":"shape","id":"sh/upgjuhgj","slide":5,"bbox":[1019,432,8,8]}
+{"kind":"textbox","id":"sh/vqp0nmh4","slide":5,"text":"Role-based actions","textPreview":"Role-based actions","textChars":18,"textLines":1,"bbox":[1038,424,188,52]}
+{"kind":"shape","id":"sh/pkbmdgjm","slide":5,"bbox":[1019,494,8,8]}
+{"kind":"textbox","id":"sh/4jilkbi1","slide":5,"text":"Privacy-controlled location","textPreview":"Privacy-controlled location","textChars":27,"textLines":1,"bbox":[1038,486,188,52]}
+{"kind":"textbox","id":"sh/3i9kb61g","slide":5,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/2h03il0v","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"image","id":"im/9o3mdorm","slide":5,"name":"","alt":"Home action reference application screenshot","bbox":[78,168,170,354]}
+{"kind":"image","id":"im/8f6h0ra5","slide":5,"name":"","alt":"Creation form reference application screenshot","bbox":[304,168,170,354]}
+{"kind":"image","id":"im/g36h4ra1","slide":5,"name":"","alt":"Published nearby item reference application screenshot","bbox":[530,168,170,354]}
+{"kind":"image","id":"im/47q18bad","slide":5,"name":"","alt":"Contextual details reference application screenshot","bbox":[756,168,170,354]}
+{"kind":"notes","id":"nt/7k8jkx","slide":5,"text":"Make clear that these screens belong to a reference application. Explain that observing the transitions helped identify what the Jamaa Next Door flow still needed, while the final behavior was adapted for privacy and role-based participation.\n\n[Sources]\n- Research/App Interface and Interaction.pdf. Reference application screenshots are visibly labeled and are not Jamaa Next Door screens."}
+{"kind":"slide","id":"sl/qabfe2","slide":6,"title":"06","textShapes":24}
+{"kind":"textbox","id":"sh/50r2dcva","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/ix0j2hwz","slide":6,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/jy9kbmdk","slide":6,"text":"The visual language moved toward calm, human trust","textPreview":"The visual language moved toward calm, human trust","textChars":50,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"textbox","id":"sh/wvi107et","slide":6,"text":"EARLY","textPreview":"EARLY","textChars":5,"textLines":1,"bbox":[165,112,140,24]}
+{"kind":"textbox","id":"sh/xwri9cve","slide":6,"text":"CURRENT","textPreview":"CURRENT","textChars":7,"textLines":1,"bbox":[587,112,160,24]}
+{"kind":"shape","id":"sh/vup072d8","slide":6,"bbox":[378,347,118,0]}
+{"kind":"shape","id":"sh/ory1wneh","slide":6,"bbox":[482,338,28,18]}
+{"kind":"shape","id":"sh/9s7i5sv2","slide":6,"bbox":[565,148,210,398]}
+{"kind":"shape","id":"sh/lg7698r2","slide":6,"bbox":[575,160,190,374]}
+{"kind":"shape","id":"sh/0fyp03ah","slide":6,"bbox":[640.6,156,58.8,7]}
+{"kind":"textbox","id":"sh/zepo7y9c","slide":6,"text":"Frankfurt am Main","textPreview":"Frankfurt am Main","textChars":17,"textLines":1,"bbox":[581,180,178,24]}
+{"kind":"shape","id":"sh/ydg7ytsr","slide":6,"bbox":[589,214,162,86]}
+{"kind":"textbox","id":"sh/dc765or6","slide":6,"text":"Nearby prayer","textPreview":"Nearby prayer","textChars":13,"textLines":1,"bbox":[601,225,138,18]}
+{"kind":"textbox","id":"sh/cbypwjal","slide":6,"text":"Jama'ah","textPreview":"Jama'ah","textChars":7,"textLines":1,"bbox":[601,245,138,30]}
+{"kind":"textbox","id":"sh/bapo3e90","slide":6,"text":"Approximate locations remain private.","textPreview":"Approximate locations remain private.","textChars":37,"textLines":1,"bbox":[601,277,138,17]}
+{"kind":"textbox","id":"sh/q9g7u9sf","slide":6,"text":"Upcoming Jama'ahs","textPreview":"Upcoming Jama'ahs","textChars":17,"textLines":1,"bbox":[589,316,162,30]}
+{"kind":"shape","id":"sh/pon61oru","slide":6,"bbox":[589,357,162,52]}
+{"kind":"textbox","id":"sh/onepsjap","slide":6,"text":"Dhuhr","textPreview":"Dhuhr","textChars":5,"textLines":1,"bbox":[601,365,80,20]}
+{"kind":"textbox","id":"sh/grip8ji5","slide":6,"text":"12:45","textPreview":"12:45","textChars":5,"textLines":1,"bbox":[601,386,80,14]}
+{"kind":"textbox","id":"sh/hsrqhojq","slide":6,"text":"3 joined","textPreview":"3 joined","textChars":8,"textLines":1,"bbox":[665,375,70,18]}
+{"kind":"shape","id":"sh/up07690f","slide":6,"bbox":[589,419,162,52]}
+{"kind":"textbox","id":"sh/fq9ofe10","slide":6,"text":"Asr","textPreview":"Asr","textChars":3,"textLines":1,"bbox":[601,427,80,20]}
+{"kind":"textbox","id":"sh/s3ip4zi9","slide":6,"text":"16:30","textPreview":"16:30","textChars":5,"textLines":1,"bbox":[601,448,80,14]}
+{"kind":"textbox","id":"sh/t4r6d4ju","slide":6,"text":"1 joined","textPreview":"1 joined","textChars":8,"textLines":1,"bbox":[665,437,70,18]}
+{"kind":"shape","id":"sh/61g72903","slide":6,"bbox":[632,424,76,76]}
+{"kind":"textbox","id":"sh/72pobu1o","slide":6,"text":"Start\nJama'ah","textPreview":"Start | Jama'ah","textChars":13,"textLines":2,"bbox":[640,442,60,44]}
+{"kind":"textbox","id":"sh/cz2pg3id","slide":6,"text":"Prayer and countdown remained priorities. The hierarchy became quieter, the language more explicit, and privacy more visible.","textPreview":"Prayer and countdown remained priorities. The hierarchy became quieter, the language more explicit, and privacy more visible.","textChars":125,"textLines":1,"bbox":[834,156,350,124]}
+{"kind":"shape","id":"sh/dkbqp8zy","slide":6,"bbox":[851,328,8,8]}
+{"kind":"textbox","id":"sh/nexsf210","slide":6,"text":"Human, not generic","textPreview":"Human, not generic","textChars":18,"textLines":1,"bbox":[870,320,320,52]}
+{"kind":"shape","id":"sh/mt4rmxkv","slide":6,"bbox":[851,380,8,8]}
+{"kind":"textbox","id":"sh/9gfahcj6","slide":6,"text":"Calm, not technical","textPreview":"Calm, not technical","textChars":19,"textLines":1,"bbox":[870,372,320,52]}
+{"kind":"shape","id":"sh/of6to72l","slide":6,"bbox":[851,432,8,8]}
+{"kind":"textbox","id":"sh/vixsj21c","slide":6,"text":"Specific, not decorative","textPreview":"Specific, not decorative","textChars":24,"textLines":1,"bbox":[870,424,320,52]}
+{"kind":"shape","id":"sh/ahobqhkr","slide":6,"bbox":[851,484,8,8]}
+{"kind":"textbox","id":"sh/xkfalcji","slide":6,"text":"Trust visible in language","textPreview":"Trust visible in language","textChars":25,"textLines":1,"bbox":[870,476,320,52]}
+{"kind":"shape","id":"sh/wj6ts72x","slide":6,"bbox":[150,590,142,24]}
+{"kind":"shape","id":"sh/rmds7il8","slide":6,"bbox":[306,590,142,24]}
+{"kind":"shape","id":"sh/qlkredkn","slide":6,"bbox":[462,590,142,24]}
+{"kind":"shape","id":"sh/2h8jahwf","slide":6,"bbox":[618,590,142,24]}
+{"kind":"textbox","id":"sh/3ihkjmx0","slide":6,"text":"Current prototype reconstruction based on implemented UI","textPreview":"Current prototype reconstruction based on implemented UI","textChars":56,"textLines":1,"bbox":[520,555,300,20]}
+{"kind":"textbox","id":"sh/4jq1crel","slide":6,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/pkz2lcf6","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"image","id":"im/n29o32hw","slide":6,"name":"","geometry":"roundRect","alt":"Early Figma home interface","bbox":[150,148,184,398]}
+{"kind":"notes","id":"nt/qabfe2","slide":6,"text":"Contrast the early Figma screen with the current implemented hierarchy. Acknowledge the teacher's request for a more human, authentic visual identity and show how language, spacing and trust cues were refined.\n\n[Sources]\n- Research/Figma Home interface.png.\n- Current prototype reconstruction based on apps/mobile/app/(tabs)/jamaahs.tsx and apps/mobile/src/theme/tokens.ts."}
+{"kind":"slide","id":"sl/i0vo0s","slide":7,"title":"07","textShapes":16}
+{"kind":"shape","id":"sh/gfepk3ut","slide":7,"bbox":[0,0,592,720]}
+{"kind":"textbox","id":"sh/hgn6t8be","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/69c7etcr","slide":7,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/7alonytc","slide":7,"text":"Location makes privacy part of the product architecture","textPreview":"Location makes privacy part of the product architecture","textChars":55,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"textbox","id":"sh/sbupgjux","slide":7,"text":"PUBLIC DISCOVERY","textPreview":"PUBLIC DISCOVERY","textChars":16,"textLines":1,"bbox":[76,154,230,26]}
+{"kind":"shape","id":"sh/tc36pob2","slide":7,"bbox":[77,203,8,8]}
+{"kind":"textbox","id":"sh/q5w7qdcv","slide":7,"text":"Prayer and start time","textPreview":"Prayer and start time","textChars":21,"textLines":1,"bbox":[96,195,400,52]}
+{"kind":"shape","id":"sh/r6p8zitg","slide":7,"bbox":[77,251,8,8]}
+{"kind":"textbox","id":"sh/f25cjat4","slide":7,"text":"Approximate area","textPreview":"Approximate area","textChars":16,"textLines":1,"bbox":[96,243,400,52]}
+{"kind":"shape","id":"sh/e1wbq5cz","slide":7,"bbox":[77,299,8,8]}
+{"kind":"textbox","id":"sh/14nulkba","slide":7,"text":"Participant count","textPreview":"Participant count","textChars":17,"textLines":1,"bbox":[96,291,400,52]}
+{"kind":"textbox","id":"sh/g3edsfup","slide":7,"text":"PROTECTED ACCESS","textPreview":"PROTECTED ACCESS","textChars":16,"textLines":1,"bbox":[76,360,230,26]}
+{"kind":"shape","id":"sh/n6pcnutg","slide":7,"bbox":[77,409,8,8]}
+{"kind":"textbox","id":"sh/25gvupcv","slide":7,"text":"Exact address","textPreview":"Exact address","textChars":13,"textLines":1,"bbox":[96,401,410,52]}
+{"kind":"shape","id":"sh/p87upkbm","slide":7,"bbox":[77,457,8,8]}
+{"kind":"textbox","id":"sh/o7ydwfu1","slide":7,"text":"Location image","textPreview":"Location image","textChars":14,"textLines":1,"bbox":[96,449,410,52]}
+{"kind":"shape","id":"sh/bapcrutc","slide":7,"bbox":[77,505,8,8]}
+{"kind":"textbox","id":"sh/a9gvypcr","slide":7,"text":"Participant-only information","textPreview":"Participant-only information","textChars":28,"textLines":1,"bbox":[96,497,410,52]}
+{"kind":"textbox","id":"sh/614n6x0b","slide":7,"text":"BACKEND ENFORCEMENT","textPreview":"BACKEND ENFORCEMENT","textChars":19,"textLines":1,"bbox":[76,566,245,24]}
+{"kind":"textbox","id":"sh/72dof2hw","slide":7,"text":"Private Storage  /  RLS  /  authenticated functions  /  reports, blocks and deletion","textPreview":"Private Storage  /  RLS  /  authenticated functions  /  reports, blocks and deletion","textChars":84,"textLines":1,"bbox":[76,598,450,48]}
+{"kind":"shape","id":"sh/83mp8nih","slide":7,"bbox":[770,162,364,364]}
+{"kind":"shape","id":"sh/t4v6hsz2","slide":7,"bbox":[850,242,204,204]}
+{"kind":"textbox","id":"sh/ydkn2d0f","slide":7,"text":"APPROXIMATE\nPUBLIC ZONE","textPreview":"APPROXIMATE | PUBLIC ZONE","textChars":23,"textLines":2,"bbox":[800,185,300,58]}
+{"kind":"textbox","id":"sh/jetobih0","slide":7,"text":"EXACT\nPARTICIPANT ZONE","textPreview":"EXACT | PARTICIPANT ZONE","textChars":22,"textLines":2,"bbox":[875,304,154,70]}
+{"kind":"textbox","id":"sh/kf254ni5","slide":7,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/lgb6dszq","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"image","id":"im/uxcfixon","slide":7,"name":"","alt":"Abstract privacy and proximity illustration generated for the presentation","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/i0vo0s","slide":7,"text":"Present privacy as functionality: discovery is useful without revealing exact meeting data, and protected fields are controlled server-side rather than merely hidden in the interface.\n\n[Sources]\n- Project portfolio privacy model and implemented Supabase policies.\n- AI-generated abstract privacy/proximity background created for this presentation."}
+{"kind":"slide","id":"sl/jzcad8","slide":8,"title":"08","textShapes":11}
+{"kind":"textbox","id":"sh/ad0z21wz","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/xgbixgva","slide":8,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/wf2h4be5","slide":8,"text":"A standalone APK connects focused mobile layers to Supabase","textPreview":"A standalone APK connects focused mobile layers to Supabase","textChars":59,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"shape","id":"sh/yhkz6lwv","slide":8,"bbox":[134,544,1010,0]}
+{"kind":"textbox","id":"sh/lkbi1gvm","slide":8,"text":"ANDROID UI","textPreview":"ANDROID UI","textChars":10,"textLines":1,"bbox":[118,566,300,22]}
+{"kind":"textbox","id":"sh/kj2h8be1","slide":8,"text":"Expo React Native + TypeScript\nExpo Router + deep links","textPreview":"Expo React Native + TypeScript | Expo Router + deep links","textChars":55,"textLines":2,"bbox":[118,596,300,54]}
+{"kind":"textbox","id":"sh/zm9gnmxc","slide":8,"text":"FOCUSED MOBILE LAYERS","textPreview":"FOCUSED MOBILE LAYERS","textChars":21,"textLines":1,"bbox":[470,566,300,22]}
+{"kind":"textbox","id":"sh/elgzuhwr","slide":8,"text":"Controllers, state holders\nand repository interfaces","textPreview":"Controllers, state holders | and repository interfaces","textChars":52,"textLines":2,"bbox":[470,596,300,54]}
+{"kind":"textbox","id":"sh/4f610vup","slide":8,"text":"SERVICE IMPLEMENTATIONS","textPreview":"SERVICE IMPLEMENTATIONS","textChars":23,"textLines":1,"bbox":[830,566,300,22]}
+{"kind":"textbox","id":"sh/pgz290ba","slide":8,"text":"Supabase Auth, PostGIS, RLS,\nRealtime, Storage + notifications","textPreview":"Supabase Auth, PostGIS, RLS, | Realtime, Storage + notifications","textChars":62,"textLines":2,"bbox":[830,596,300,54]}
+{"kind":"shape","id":"sh/2tojylcz","slide":8,"bbox":[1125,566,84,64]}
+{"kind":"textbox","id":"sh/3exk7qt4","slide":8,"text":"APK","textPreview":"APK","textChars":3,"textLines":1,"bbox":[1138,581,58,28]}
+{"kind":"textbox","id":"sh/cjql4vu1","slide":8,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/dkz2d0bm","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"image","id":"im/a5kjupwv","slide":8,"name":"","alt":"Technical architecture extracted from the project portfolio","bbox":[100,120,1080,392]}
+{"kind":"notes","id":"nt/jzcad8","slide":8,"text":"Explain the one-directional dependency boundary: screens render and forward actions, feature logic owns state transitions, and repositories isolate Supabase and Android services. Finish by pointing to the signed standalone APK.\n\n[Sources]\n- Project portfolio, page 14: technical architecture.\n- Project source: apps/mobile/src/services/app-dependencies.ts and apps/mobile/src/ports/."}
+{"kind":"slide","id":"sl/y9u9qp","slide":9,"title":"09","textShapes":12}
+{"kind":"textbox","id":"sh/t0jel8vu","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/6x8fadwj","slide":9,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/7yhwjyd4","slide":9,"text":"AI became useful when requests became controlled specifications","textPreview":"AI became useful when requests became controlled specifications","textChars":63,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"shape","id":"sh/kvqx83ed","slide":9,"bbox":[244,268,680,0]}
+{"kind":"shape","id":"sh/5wzeh8vy","slide":9,"bbox":[415,257,30,22]}
+{"kind":"shape","id":"sh/it8f6tw7","slide":9,"bbox":[768,257,30,22]}
+{"kind":"shape","id":"sh/juhwfyds","slide":9,"bbox":[196,255,26,26]}
+{"kind":"textbox","id":"sh/4ruxkneh","slide":9,"text":"BROAD REQUEST","textPreview":"BROAD REQUEST","textChars":13,"textLines":1,"bbox":[94,158,230,50]}
+{"kind":"textbox","id":"sh/ps3ytsv2","slide":9,"text":"Feature idea\nScreenshots\nWritten description","textPreview":"Feature idea | Screenshots | Written description","textChars":44,"textLines":3,"bbox":[94,306,230,138]}
+{"kind":"shape","id":"sh/5wnuhwjm","slide":9,"bbox":[549,255,26,26]}
+{"kind":"textbox","id":"sh/kvet8bi1","slide":9,"text":"BOUNDED CHANGE","textPreview":"BOUNDED CHANGE","textChars":14,"textLines":1,"bbox":[447,158,230,50]}
+{"kind":"textbox","id":"sh/ju5cf61g","slide":9,"text":"Desired behavior\nKeep unchanged\nObsolete behavior\nOwner module","textPreview":"Desired behavior | Keep unchanged | Obsolete behavior | Owner module","textChars":62,"textLines":4,"bbox":[447,306,230,138]}
+{"kind":"shape","id":"sh/itwb610b","slide":9,"bbox":[792,255,26,26]}
+{"kind":"textbox","id":"sh/x83adwjq","slide":9,"text":"VERIFIED IMPLEMENTATION","textPreview":"VERIFIED IMPLEMENTATION","textChars":23,"textLines":1,"bbox":[690,158,230,50]}
+{"kind":"textbox","id":"sh/w7ut4ri5","slide":9,"text":"Syntax + imports\nSmoke test\nDevice reproduction\nRegression check","textPreview":"Syntax + imports | Smoke test | Device reproduction | Regression check","textChars":64,"textLines":4,"bbox":[690,306,230,138]}
+{"kind":"textbox","id":"sh/a5cb2h0z","slide":9,"text":"Prompting became an engineering control rather than a request for automatic output.","textPreview":"Prompting became an engineering control rather than a request for automatic output.","textChars":83,"textLines":1,"bbox":[168,520,760,78]}
+{"kind":"textbox","id":"sh/h47upgzu","slide":9,"text":"Safe-change template crop","textPreview":"Safe-change template crop","textChars":25,"textLines":1,"bbox":[970,514,220,20]}
+{"kind":"textbox","id":"sh/g3ytgvi9","slide":9,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/0jq58jux","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"image","id":"im/k7ihcrul","slide":9,"name":"","geometry":"roundRect","alt":"Cropped safe change request template","bbox":[970,115,220,386]}
+{"kind":"notes","id":"nt/y9u9qp","slide":9,"text":"Describe the shift from broad prompting to bounded specifications. The key learning is that AI became reliable when the request defined scope, ownership and verification rather than asking for unsupervised output.\n\n[Sources]\n- Research/safe-change-workflow.updated.pdf, page 1."}
+{"kind":"slide","id":"sl/py8nrl","slide":10,"title":"10","textShapes":17}
+{"kind":"textbox","id":"sh/rqtsfu9k","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/sr2t8zq5","slide":10,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/tsbah4rq","slide":10,"text":"Reusable prompts made different kinds of changes safer","textPreview":"Reusable prompts made different kinds of changes safer","textChars":54,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"textbox","id":"sh/il0b2p83","slide":10,"text":"ADD","textPreview":"ADD","textChars":3,"textLines":1,"bbox":[80,128,220,55]}
+{"kind":"shape","id":"sh/jm9sbu9o","slide":10,"bbox":[300,156,82,0]}
+{"kind":"textbox","id":"sh/4nit4zqt","slide":10,"text":"Owner module + explicit dependencies","textPreview":"Owner module + explicit dependencies","textChars":36,"textLines":1,"bbox":[405,133,760,48]}
+{"kind":"textbox","id":"sh/5oradkre","slide":10,"text":"CHANGE","textPreview":"CHANGE","textChars":6,"textLines":1,"bbox":[80,211,220,55]}
+{"kind":"shape","id":"sh/2h4be987","slide":10,"bbox":[300,239,82,0]}
+{"kind":"textbox","id":"sh/3idcneps","slide":10,"text":"Preserve specified behavior + remove obsolete branches","textPreview":"Preserve specified behavior + remove obsolete branches","textChars":54,"textLines":1,"bbox":[405,216,760,48]}
+{"kind":"textbox","id":"sh/jqlgvi5o","slide":10,"text":"REMOVE","textPreview":"REMOVE","textChars":6,"textLines":1,"bbox":[80,294,220,55]}
+{"kind":"shape","id":"sh/ypczmdo3","slide":10,"bbox":[300,322,82,0]}
+{"kind":"textbox","id":"sh/lsnixsnu","slide":10,"text":"Delete logic, state, UI, imports + stale documentation","textPreview":"Delete logic, state, UI, imports + stale documentation","textChars":54,"textLines":1,"bbox":[405,299,760,48]}
+{"kind":"textbox","id":"sh/krehon69","slide":10,"text":"FIX","textPreview":"FIX","textChars":3,"textLines":1,"bbox":[80,377,220,55]}
+{"kind":"shape","id":"sh/7u50zi5k","slide":10,"bbox":[300,405,82,0]}
+{"kind":"textbox","id":"sh/6twzqd4z","slide":10,"text":"Reproduce -> root cause -> focused regression check","textPreview":"Reproduce -> root cause -> focused regression check","textChars":51,"textLines":1,"bbox":[405,382,760,48]}
+{"kind":"textbox","id":"sh/tgni1snq","slide":10,"text":"REFACTOR","textPreview":"REFACTOR","textChars":8,"textLines":1,"bbox":[80,460,220,55]}
+{"kind":"shape","id":"sh/8fehsnm5","slide":10,"bbox":[300,488,82,0]}
+{"kind":"textbox","id":"sh/vi50325w","slide":10,"text":"Preserve public behavior + separate incrementally","textPreview":"Preserve public behavior + separate incrementally","textChars":49,"textLines":1,"bbox":[405,465,760,48]}
+{"kind":"shape","id":"sh/uhwzux4b","slide":10,"bbox":[690,544,500,112]}
+{"kind":"textbox","id":"sh/qd0jm1oj","slide":10,"text":"Observed behavior: ...\nExpected behavior: ...\nHow to reproduce: ...\nIdentify the root cause before editing.","textPreview":"Observed behavior: ... | Expected behavior: ... | How to reproduce: ... | Identify the root cause before editing.","textChars":107,"textLines":4,"bbox":[716,562,450,80]}
+{"kind":"textbox","id":"sh/re9kv6p4","slide":10,"text":"KEEP UNCHANGED","textPreview":"KEEP UNCHANGED","textChars":14,"textLines":1,"bbox":[82,584,250,28]}
+{"kind":"textbox","id":"sh/sfilob6p","slide":10,"text":"VERIFICATION","textPreview":"VERIFICATION","textChars":12,"textLines":1,"bbox":[82,620,250,28]}
+{"kind":"textbox","id":"sh/dgr2xw7a","slide":10,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/i9gjih87","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"notes","id":"nt/py8nrl","slide":10,"text":"Use the five verbs to show that different change types require different safety constraints. For fixes, quote the root-cause-first excerpt and explain why 'keep unchanged' and verification became mandatory fields.\n\n[Sources]\n- Research/safe-change-workflow.updated.pdf, pages 1-3. Exact prompt wording is adapted into visible excerpts."}
+{"kind":"slide","id":"sl/nlhy2j","slide":11,"title":"11","textShapes":20}
+{"kind":"textbox","id":"sh/1cbq1cba","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/ep0r6hcz","slide":11,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/fq98zmt4","slide":11,"text":"Direct access shortened the feedback loop","textPreview":"Direct access shortened the feedback loop","textChars":41,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"shape","id":"sh/of29cru1","slide":11,"bbox":[96,508,28,28]}
+{"kind":"textbox","id":"sh/pgba5wbm","slide":11,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[93,512,34,20]}
+{"kind":"textbox","id":"sh/2dkrahcv","slide":11,"text":"Screenshots + written reports","textPreview":"Screenshots + written reports","textChars":29,"textLines":1,"bbox":[30,546,160,48]}
+{"kind":"shape","id":"sh/net83mtg","slide":11,"bbox":[286,442,28,28]}
+{"kind":"textbox","id":"sh/4ji90nuh","slide":11,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[283,446,34,20]}
+{"kind":"textbox","id":"sh/5krqtsb2","slide":11,"text":"USB debugging + ADB","textPreview":"USB debugging + ADB","textChars":19,"textLines":1,"bbox":[220,480,160,48]}
+{"kind":"shape","id":"sh/1wz6tsnm","slide":11,"bbox":[478,376,28,28]}
+{"kind":"textbox","id":"sh/gvq5kn61","slide":11,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[475,380,34,20]}
+{"kind":"textbox","id":"sh/fahori5g","slide":11,"text":"Direct APK installation","textPreview":"Direct APK installation","textChars":23,"textLines":1,"bbox":[412,414,160,48]}
+{"kind":"shape","id":"sh/e9onidov","slide":11,"bbox":[670,310,28,28]}
+{"kind":"textbox","id":"sh/p0z6xsni","slide":11,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[667,314,34,20]}
+{"kind":"textbox","id":"sh/ozqpon6d","slide":11,"text":"Device logs + reproduction","textPreview":"Device logs + reproduction","textChars":26,"textLines":1,"bbox":[604,348,160,48]}
+{"kind":"shape","id":"sh/3yhovi5s","slide":11,"bbox":[862,244,28,28]}
+{"kind":"textbox","id":"sh/2x87mxo7","slide":11,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[859,248,34,20]}
+{"kind":"textbox","id":"sh/d4j61cnu","slide":11,"text":"Browser-assisted setup","textPreview":"Browser-assisted setup","textChars":22,"textLines":1,"bbox":[796,282,160,48]}
+{"kind":"shape","id":"sh/c3aps769","slide":11,"bbox":[1046,178,28,28]}
+{"kind":"textbox","id":"sh/w7i9obul","slide":11,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1043,182,34,20]}
+{"kind":"textbox","id":"sh/x8rqxgv6","slide":11,"text":"Rebuild -> install -> verify","textPreview":"Rebuild -> install -> verify","textChars":28,"textLines":1,"bbox":[980,216,160,48]}
+{"kind":"shape","id":"sh/a5grm1cf","slide":11,"bbox":[76,130,430,224]}
+{"kind":"textbox","id":"sh/v698v6d0","slide":11,"text":"DEVICE EVIDENCE","textPreview":"DEVICE EVIDENCE","textChars":15,"textLines":1,"bbox":[100,151,180,22]}
+{"kind":"textbox","id":"sh/kbi9svuh","slide":11,"text":"> adb devices\n> adb install -r jamaa-next-door.apk\n> adb logcat | findstr AuthSession\n\nMagic-link callback\nCrypto compatibility\nBlank details route","textPreview":"> adb devices | > adb install -r jamaa-next-door.apk | > adb logcat | findstr AuthSession |  | Magic-link callback | Crypto compatibility...","textChars":147,"textLines":7,"bbox":[100,187,372,145]}
+{"kind":"shape","id":"sh/5crq1gv2","slide":11,"bbox":[730,468,454,144]}
+{"kind":"textbox","id":"sh/i90rqlcb","slide":11,"text":"BROWSER-ASSISTED CONFIGURATION","textPreview":"BROWSER-ASSISTED CONFIGURATION","textChars":30,"textLines":1,"bbox":[755,490,400,24]}
+{"kind":"textbox","id":"sh/ja98zqdw","slide":11,"text":"NAMECHEAP   ->   RESEND   ->   SUPABASE\nDNS records      SMTP domain      Auth redirects","textPreview":"NAMECHEAP   ->   RESEND   ->   SUPABASE | DNS records      SMTP domain      Auth redirects","textChars":88,"textLines":2,"bbox":[755,530,400,58]}
+{"kind":"textbox","id":"sh/0fypgred","slide":11,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/lg7qpwvy","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"notes","id":"nt/nlhy2j","slide":11,"text":"Explain how direct observation replaced guesswork: connect the phone, install the APK, reproduce the issue, inspect logs, then verify the same path. Mention magic-link routing, the missing profile action, the crypto error, blank details, and browser configuration without exposing credentials.\n\n[Sources]\n- Project development chronology supplied by Mohitur Rahman Zidan.\n- Local project evidence: Android package com.zidan73.jamaanextdoor and EAS/APK build outputs."}
+{"kind":"slide","id":"sl/jnk3nb","slide":12,"title":"12","textShapes":14}
+{"kind":"textbox","id":"sh/o3618bml","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/n2x0fq50","slide":12,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/m14j6l4f","slide":12,"text":"The working prototype proves the central journey","textPreview":"The working prototype proves the central journey","textChars":48,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"textbox","id":"sh/x8fil0ni","slide":12,"text":"Create and confirm","textPreview":"Create and confirm","textChars":18,"textLines":1,"bbox":[80,212,260,44]}
+{"kind":"textbox","id":"sh/w761cvmx","slide":12,"text":"Return to the\ntime-sorted home","textPreview":"Return to the | time-sorted home","textChars":30,"textLines":2,"bbox":[80,326,260,66]}
+{"kind":"textbox","id":"sh/v6x0jq5c","slide":12,"text":"Open details and\nparticipation actions","textPreview":"Open details and | participation actions","textChars":38,"textLines":2,"bbox":[80,454,260,66]}
+{"kind":"shape","id":"sh/a5ojal4r","slide":12,"bbox":[374,236,96,0]}
+{"kind":"shape","id":"sh/5wzip03e","slide":12,"bbox":[374,356,96,0]}
+{"kind":"shape","id":"sh/kvq1gvmt","slide":12,"bbox":[374,484,96,0]}
+{"kind":"shape","id":"sh/69c3y5sj","slide":12,"bbox":[490,124,276,510]}
+{"kind":"shape","id":"sh/7alk7ato","slide":12,"bbox":[500,136,256,486]}
+{"kind":"shape","id":"sh/sbul0fa9","slide":12,"bbox":[589.36,132,77.28,7]}
+{"kind":"textbox","id":"sh/tcn29kru","slide":12,"text":"Review Jama'ah","textPreview":"Review Jama'ah","textChars":14,"textLines":1,"bbox":[518,164,220,30]}
+{"kind":"shape","id":"sh/udw325sf","slide":12,"bbox":[516,208,224,238]}
+{"kind":"textbox","id":"sh/fy54ba90","slide":12,"text":"PRAYER\nDhuhr\n\nSTARTS\n12:45 today\n\nLOCATION\nFrankfurt-Bockenheim\n\nPHOTO\nLocation image attached","textPreview":"PRAYER | Dhuhr |  | STARTS | 12:45 today |  | LOCATION | Frankfurt-Bockenheim |  | PHOTO | Location image attached","textChars":94,"textLines":11,"bbox":[534,224,188,204]}
+{"kind":"shape","id":"sh/gzel4fal","slide":12,"bbox":[524,514,208,42]}
+{"kind":"textbox","id":"sh/h0nmdkr6","slide":12,"text":"Confirm Jama'ah","textPreview":"Confirm Jama'ah","textChars":15,"textLines":1,"bbox":[534,525,188,22]}
+{"kind":"textbox","id":"sh/ahs3qlsb","slide":12,"text":"Edit","textPreview":"Edit","textChars":4,"textLines":1,"bbox":[524,568,208,20]}
+{"kind":"shape","id":"sh/vi1kzqtg","slide":12,"bbox":[577,314,102,102]}
+{"kind":"shape","id":"sh/zmh07m98","slide":12,"bbox":[615,343,36,44]}
+{"kind":"textbox","id":"sh/elozyh83","slide":12,"text":"APPLICATION WALKTHROUGH","textPreview":"APPLICATION WALKTHROUGH","textChars":23,"textLines":1,"bbox":[842,226,330,36]}
+{"kind":"textbox","id":"sh/lozi9wre","slide":12,"text":"60-90 seconds\nPortrait H.264 MP4\nEmbedded for offline playback","textPreview":"60-90 seconds | Portrait H.264 MP4 | Embedded for offline playback","textChars":62,"textLines":3,"bbox":[842,282,310,116]}
+{"kind":"textbox","id":"sh/0nqh0rqt","slide":12,"text":"A poster frame remains visible if playback is unavailable.","textPreview":"A poster frame remains visible if playback is unavailable.","textChars":58,"textLines":1,"bbox":[842,446,300,64]}
+{"kind":"textbox","id":"sh/rix0329c","slide":12,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/qhozuh8r","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"notes","id":"nt/jnk3nb","slide":12,"text":"Replace the central poster with the final embedded 1080 x 1920 H.264 walkthrough before presentation. Demonstrate home, creation, prayer/time selection, location image, review, confirmation, refreshed home, details sheet, participation actions and Close. Keep the poster frame as the media fallback.\n\n[Sources]\n- Walkthrough sequence defined from the implemented application flow. No walkthrough MP4 was available during deck generation."}
+{"kind":"slide","id":"sl/e9w4zh","slide":13,"title":"13","textShapes":27}
+{"kind":"textbox","id":"sh/vmdcf69s","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[58,34,52,30]}
+{"kind":"shape","id":"sh/wnmtobax","slide":13,"bbox":[116,47,54,0]}
+{"kind":"textbox","id":"sh/h8vuhgri","slide":13,"text":"The prototype works; trust still requires real-world validation","textPreview":"The prototype works; trust still requires real-world validation","textChars":63,"textLines":1,"bbox":[188,26,1034,72]}
+{"kind":"textbox","id":"sh/mhkbi1sv","slide":13,"text":"WORKING","textPreview":"WORKING","textChars":7,"textLines":1,"bbox":[78,128,220,30]}
+{"kind":"shape","id":"sh/7itsb69g","slide":13,"bbox":[93,181,20,0]}
+{"kind":"textbox","id":"sh/8j2tkba1","slide":13,"text":"Standalone APK","textPreview":"Standalone APK","textChars":14,"textLines":1,"bbox":[128,167,290,30]}
+{"kind":"shape","id":"sh/9kbudwrm","slide":13,"bbox":[93,234,20,0]}
+{"kind":"textbox","id":"sh/ydkbehsz","slide":13,"text":"Magic-link authentication","textPreview":"Magic-link authentication","textChars":25,"textLines":1,"bbox":[128,220,290,30]}
+{"kind":"shape","id":"sh/zets7mtk","slide":13,"bbox":[93,287,20,0]}
+{"kind":"textbox","id":"sh/n6503u5s","slide":13,"text":"Profile setup","textPreview":"Profile setup","textChars":13,"textLines":1,"bbox":[128,273,290,30]}
+{"kind":"shape","id":"sh/m5wjapo7","slide":13,"bbox":[93,340,20,0]}
+{"kind":"textbox","id":"sh/9sni5kny","slide":13,"text":"Create + confirm","textPreview":"Create + confirm","textChars":16,"textLines":1,"bbox":[128,326,290,30]}
+{"kind":"shape","id":"sh/87e1cf6d","slide":13,"bbox":[93,393,20,0]}
+{"kind":"textbox","id":"sh/vup07u54","slide":13,"text":"Time-sorted discovery","textPreview":"Time-sorted discovery","textChars":21,"textLines":1,"bbox":[128,379,290,30]}
+{"kind":"shape","id":"sh/atgjepoj","slide":13,"bbox":[93,446,20,0]}
+{"kind":"textbox","id":"sh/hw7i94nu","slide":13,"text":"Details bottom sheet","textPreview":"Details bottom sheet","textChars":20,"textLines":1,"bbox":[128,432,290,30]}
+{"kind":"shape","id":"sh/wvy1gz6p","slide":13,"bbox":[93,499,20,0]}
+{"kind":"textbox","id":"sh/byl0vapk","slide":13,"text":"Participation actions","textPreview":"Participation actions","textChars":21,"textLines":1,"bbox":[128,485,290,30]}
+{"kind":"shape","id":"sh/qxcz25of","slide":13,"bbox":[93,552,20,0]}
+{"kind":"textbox","id":"sh/e54vqxcz","slide":13,"text":"Automatic ending","textPreview":"Automatic ending","textChars":16,"textLines":1,"bbox":[128,538,290,30]}
+{"kind":"shape","id":"sh/f6dcz2tk","slide":13,"bbox":[490,142,216,454]}
+{"kind":"shape","id":"sh/07mds7u5","slide":13,"bbox":[500,154,196,430]}
+{"kind":"shape","id":"sh/18vu1cbq","slide":13,"bbox":[567.76,150,60.48,7]}
+{"kind":"shape","id":"sh/q1kvmxc3","slide":13,"bbox":[514,190,168,130]}
+{"kind":"textbox","id":"sh/r2tcv2to","slide":13,"text":"Upcoming Jama'ahs","textPreview":"Upcoming Jama'ahs","textChars":17,"textLines":1,"bbox":[524,208,148,28]}
+{"kind":"shape","id":"sh/s32donut","slide":13,"bbox":[514,288,168,280]}
+{"kind":"shape","id":"sh/d4buxsbe","slide":13,"bbox":[574,298,48,4]}
+{"kind":"textbox","id":"sh/id0bidcr","slide":13,"text":"Dhuhr Jama'ah","textPreview":"Dhuhr Jama'ah","textChars":13,"textLines":1,"bbox":[531,320,134,30]}
+{"kind":"textbox","id":"sh/3ytcritc","slide":13,"text":"00:11:42","textPreview":"00:11:42","textChars":8,"textLines":1,"bbox":[531,356,134,34]}
+{"kind":"textbox","id":"sh/lszyxgvu","slide":13,"text":"Starts\n12:45 today\n\nApproximate area\nFrankfurt-Bockenheim\n\nParticipants\n3","textPreview":"Starts | 12:45 today |  | Approximate area | Frankfurt-Bockenheim |  | Participants | 3","textChars":73,"textLines":8,"bbox":[531,402,134,156]}
+{"kind":"shape","id":"sh/krqxobe9","slide":13,"bbox":[530,450,136,28]}
+{"kind":"textbox","id":"sh/zqhgvqdo","slide":13,"text":"Leave Jama'ah","textPreview":"Leave Jama'ah","textChars":13,"textLines":1,"bbox":[536,455,124,18]}
+{"kind":"shape","id":"sh/yp8fmlwj","slide":13,"bbox":[530,486,136,28]}
+{"kind":"textbox","id":"sh/xozytgvy","slide":13,"text":"Share Jama'ah","textPreview":"Share Jama'ah","textChars":13,"textLines":1,"bbox":[536,491,124,18]}
+{"kind":"shape","id":"sh/cn6xkbed","slide":13,"bbox":[530,522,136,28]}
+{"kind":"textbox","id":"sh/b2xwr6ds","slide":13,"text":"Close","textPreview":"Close","textChars":5,"textLines":1,"bbox":[536,527,124,18]}
+{"kind":"shape","id":"sh/a1ofi1w7","slide":13,"bbox":[774,138,430,458]}
+{"kind":"textbox","id":"sh/p0fepwvm","slide":13,"text":"STILL REQUIRES VALIDATION","textPreview":"STILL REQUIRES VALIDATION","textChars":25,"textLines":1,"bbox":[808,174,360,30]}
+{"kind":"shape","id":"sh/oz6xgre1","slide":13,"bbox":[813,238,8,8]}
+{"kind":"textbox","id":"sh/4rex0ba1","slide":13,"text":"Structured user testing","textPreview":"Structured user testing","textChars":23,"textLines":1,"bbox":[832,230,340,52]}
+{"kind":"shape","id":"sh/psne9grm","slide":13,"bbox":[813,305,8,8]}
+{"kind":"textbox","id":"sh/2pwfy1sv","slide":13,"text":"Transparent moderation policy","textPreview":"Transparent moderation policy","textChars":29,"textLines":1,"bbox":[832,297,340,52]}
+{"kind":"shape","id":"sh/3q5w769g","slide":13,"bbox":[813,372,8,8]}
+{"kind":"textbox","id":"sh/cvyx4bax","slide":13,"text":"Professional selfie-verification decision","textPreview":"Professional selfie-verification decision","textChars":41,"textLines":1,"bbox":[832,364,340,52]}
+{"kind":"shape","id":"sh/dg7ydgri","slide":13,"bbox":[813,439,8,8]}
+{"kind":"textbox","id":"sh/qtwf2ls7","slide":13,"text":"Arabic and right-to-left design testing","textPreview":"Arabic and right-to-left design testing","textChars":39,"textLines":1,"bbox":[832,431,340,52]}
+{"kind":"shape","id":"sh/rupwbq9s","slide":13,"bbox":[813,506,8,8]}
+{"kind":"textbox","id":"sh/szuxsrat","slide":13,"text":"Production monitoring and safeguarding","textPreview":"Production monitoring and safeguarding","textChars":38,"textLines":1,"bbox":[832,498,340,52]}
+{"kind":"textbox","id":"sh/tk3e1wre","slide":13,"text":"Current prototype reconstruction","textPreview":"Current prototype reconstruction","textChars":32,"textLines":1,"bbox":[474,612,250,18]}
+{"kind":"textbox","id":"sh/vqt8nyx8","slide":13,"text":"JAMAA NEXT DOOR","textPreview":"JAMAA NEXT DOOR","textChars":15,"textLines":1,"bbox":[58,686,190,18]}
+{"kind":"textbox","id":"sh/upkrutgn","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1182,684,42,20]}
+{"kind":"notes","id":"nt/e9w4zh","slide":13,"text":"Be explicit about what works and what remains unresolved. The prototype proves the central journey, but responsible release still depends on user testing, moderation transparency, verification policy, RTL design and ongoing safeguarding.\n\n[Sources]\n- Project source and current implementation status.\n- Teacher feedback supplied by Mohitur Rahman Zidan."}
+{"kind":"slide","id":"sl/2bvjkf","slide":14,"title":"Personal need became a responsible, verifiable product","textShapes":7}
+{"kind":"shape","id":"sh/u9wra5cj","slide":14,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/vap83qd4","slide":14,"bbox":[632,110,540,430]}
+{"kind":"textbox","id":"sh/8ne98vut","slide":14,"text":"Personal need became a responsible, verifiable product","textPreview":"Personal need became a responsible, verifiable product","textChars":54,"textLines":1,"bbox":[116,102,905,118]}
+{"kind":"shape","id":"sh/t8nq10ve","slide":14,"bbox":[116,246,190,0]}
+{"kind":"textbox","id":"sh/6lwr6lcn","slide":14,"text":"Personal motivation","textPreview":"Personal motivation","textChars":19,"textLines":1,"bbox":[116,285,470,34]}
+{"kind":"textbox","id":"sh/7m58zqd8","slide":14,"text":"Trust-aware product design","textPreview":"Trust-aware product design","textChars":26,"textLines":1,"bbox":[116,337,470,34]}
+{"kind":"textbox","id":"sh/kje94buh","slide":14,"text":"Working Android implementation","textPreview":"Working Android implementation","textChars":30,"textLines":1,"bbox":[116,389,470,34]}
+{"kind":"textbox","id":"sh/lknqxgv2","slide":14,"text":"AI-assisted, human-directed process","textPreview":"AI-assisted, human-directed process","textChars":35,"textLines":1,"bbox":[116,441,470,34]}
+{"kind":"textbox","id":"sh/9wruxwbi","slide":14,"text":"Jamaa Next Door demonstrates that local coordination can reduce religious isolation when privacy, timing and trust are treated as part of the functionality.","textPreview":"Jamaa Next Door demonstrates that local coordination can reduce religious isolation when privacy, timing and trust are treated as part of...","textChars":156,"textLines":1,"bbox":[672,286,460,190]}
+{"kind":"textbox","id":"sh/8vit4rux","slide":14,"text":"Questions","textPreview":"Questions","textChars":9,"textLines":1,"bbox":[116,628,200,38]}
+{"kind":"image","id":"im/4re9kzep","slide":14,"name":"","alt":"Atmospheric arch portfolio cover artwork","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/2bvjkf","slide":14,"text":"Resolve the opening story: a personal need became a product whose central journey is implemented and whose risks are treated as design constraints. Invite questions without adding a generic thank-you slide.\n\n[Sources]\n- Conclusion synthesized from the project portfolio, implemented prototype and user-provided motivation.\n- Project portfolio cover artwork reused as a visual bookend."}

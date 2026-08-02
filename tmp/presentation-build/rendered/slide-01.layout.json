@@ -1,0 +1,588 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/x3fjlz",
+    "id": "x3fjlz",
+    "slide": 1,
+    "layoutId": "48a6c8cc-5da8-4b2d-ba0d-71ba5e11b624",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "cf217460-236b-45a2-95c8-6e91fbe8a044",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Jamaa Next Door",
+    "colors": {
+      "accent1": "#063E4D",
+      "accent2": "#E7C48D",
+      "accent3": "#89A98F",
+      "accent4": "#0B4B58",
+      "accent5": "#C8766B",
+      "accent6": "#AEB7B8",
+      "bg1": "#F7F5F2",
+      "bg2": "#EEE9DF",
+      "tx1": "#16363B",
+      "tx2": "#5F7377",
+      "dk1": "#102F33",
+      "dk2": "#063E4D",
+      "lt1": "#FFFFFF",
+      "lt2": "#F7F5F2",
+      "hlink": "#E7C48D",
+      "folHlink": "#89A98F"
+    },
+    "typefaces": [
+      "Aptos",
+      "Georgia"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "48a6c8cc-5da8-4b2d-ba0d-71ba5e11b624",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "cf217460-236b-45a2-95c8-6e91fbe8a044",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "cf217460-236b-45a2-95c8-6e91fbe8a044",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/2hwzyxc7",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "alt": "Atmospheric arch portfolio cover artwork",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "11660b23-c486-429a-9b1e-33e9f9f505b4",
+        "contentType": "image/png",
+        "byteLength": 421913
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kze1cvq5",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#000000",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0n2l0rq",
+      "id": "3",
+      "bbox": [
+        790,
+        70,
+        360,
+        570
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#E7C48D",
+      "lineWidth": 3
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9cj6l83",
+      "id": "4",
+      "bbox": [
+        961,
+        341,
+        18,
+        18
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#89A98F",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bal0fq9o",
+      "id": "5",
+      "bbox": [
+        92,
+        96,
+        0,
+        492
+      ],
+      "geometry": "line",
+      "lineColor": "#E7C48D",
+      "lineWidth": 3
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbu18vqt",
+      "id": "6",
+      "bbox": [
+        126,
+        108,
+        720,
+        92
+      ],
+      "geometry": "rect",
+      "text": "Jamaa Next Door",
+      "textPreview": "Jamaa Next Door",
+      "resolvedFontSize": 64,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 64,
+        "typeface": "Georgia",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jamaa Next Door"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jamaa Next Door",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 64,
+            "typeface": "Georgia",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jamaa Next Door",
+              "fontSize": 64,
+              "typeface": "Georgia",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ih0re",
+      "id": "7",
+      "bbox": [
+        132,
+        214,
+        610,
+        42
+      ],
+      "geometry": "rect",
+      "text": "A platform to unify Muslims",
+      "textPreview": "A platform to unify Muslims",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Georgia",
+        "color": "#E7C48D",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A platform to unify Muslims"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A platform to unify Muslims",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Georgia",
+            "color": "#E7C48D",
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A platform to unify Muslims",
+              "fontSize": 28,
+              "typeface": "Georgia",
+              "color": "#E7C48D",
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u5wjip87",
+      "id": "8",
+      "bbox": [
+        132,
+        310,
+        360,
+        28
+      ],
+      "geometry": "rect",
+      "text": "PROJECT PRESENTATION",
+      "textPreview": "PROJECT PRESENTATION",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#89A98F",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROJECT PRESENTATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROJECT PRESENTATION",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#89A98F",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROJECT PRESENTATION",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#89A98F",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v65krups",
+      "id": "9",
+      "bbox": [
+        132,
+        350,
+        540,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Mohitur Rahman Zidan",
+      "textPreview": "Mohitur Rahman Zidan",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Georgia",
+        "color": "#F7F5F2",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mohitur Rahman Zidan"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mohitur Rahman Zidan",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Georgia",
+            "color": "#F7F5F2",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mohitur Rahman Zidan",
+              "fontSize": 34,
+              "typeface": "Georgia",
+              "color": "#F7F5F2",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/radgrilo",
+      "id": "10",
+      "bbox": [
+        132,
+        518,
+        560,
+        110
+      ],
+      "geometry": "rect",
+      "text": "Augmented and Virtual Reality Design\nExperimental XR Interactions & Interfaces\nSummer Semester - 2026\nTutored by David Bachmann",
+      "textPreview": "Augmented and Virtual Reality Design | Experimental XR Interactions & Interfaces | Summer Semester - 2026 | Tutored by David Bachmann",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "color": "#F7F5F2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Augmented and Virtual Reality Design"
+          },
+          {
+            "index": 2,
+            "text": "Experimental XR Interactions & Interfaces"
+          },
+          {
+            "index": 3,
+            "text": "Summer Semester - 2026"
+          },
+          {
+            "index": 4,
+            "text": "Tutored by David Bachmann"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Augmented and Virtual Reality Design",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Augmented and Virtual Reality Design",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Experimental XR Interactions & Interfaces",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Experimental XR Interactions & Interfaces",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Summer Semester - 2026",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Summer Semester - 2026",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Tutored by David Bachmann",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#F7F5F2",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tutored by David Bachmann",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#F7F5F2",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
