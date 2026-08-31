@@ -149,7 +149,6 @@ vite.config.ts.timestamp-*
 .expo-shared
 android
 ios
-*.apk
 *.aab
 
 # Supabase local state and generated output
