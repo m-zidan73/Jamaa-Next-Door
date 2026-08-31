@@ -159,3 +159,6 @@ supabase/.branches
 # User uploads and app-generated data
 uploads/
 storage/
+
+# Large media exceeding GitHub's 100MB file limit
+output/presentation/Jamaa_Next_Door_Presentation_With_Demo.mov
